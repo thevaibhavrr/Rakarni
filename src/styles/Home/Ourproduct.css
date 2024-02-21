@@ -1,0 +1,40 @@
+/* background: rgba(81, 81, 81, 255); */
+.our-product-main-prerent {
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+}
+.our-product-left-sanction {
+  background: rgba(81, 81, 81, 255);
+  width: 40%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.cement-image-out-product {
+  /* height: 20px; */
+  /* width: 3px; */
+  /* margin-left: 60px; */
+}
+.out_product_message{
+   font-size: 18px; 
+}
+.our-product-right-sanction {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background-color: #d2d3d5;
+}
+.our-product-text-sanction {
+  width: 40%;
+  font-size: 20px;
+  word-spacing: 10px;
+  text-align: center;
+}
+.our-product-text{
+  text-align: center;
+  font-size: 30px;  
+  font-weight: bold;
+  
+}

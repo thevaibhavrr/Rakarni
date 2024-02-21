@@ -1,0 +1,11 @@
+.main_footer_div{
+ /* height: 40vh;    */
+ background: var(--orange-color-header-footer);
+padding: 50px 100px;
+display: flex;
+flex-direction: column;
+gap: 10px;
+}
+.footer_message{
+    font-weight: bold;
+}
