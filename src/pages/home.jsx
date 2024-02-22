@@ -18,7 +18,7 @@ function Home() {
         <Aboutus/>
         <Whychooseus/>
         <Testimonials/>
-        <Footer/>
+        {/* <Footer/> */}
     </div>
   )
 }
