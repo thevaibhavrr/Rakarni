@@ -11,6 +11,10 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.css-for-link-tag{
+ text-decoration: none; 
+ color: black;
+}
 
 :root{
   --home-page-gry-color:rgba(81, 81, 81, 255);

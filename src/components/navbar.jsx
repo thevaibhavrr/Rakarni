@@ -1,6 +1,7 @@
 import React from "react";
 import "../styles/navbar.css";
 import Icon from "../Images/navbar/main_icon.png";
+import { Link } from "react-router-dom";
 function Navbar() {
   return (
     <>
@@ -11,8 +12,12 @@ function Navbar() {
           </div>
           <div className="navbar_items_right_div" >
             <ul className="navbar_ul" >
+            <Link to={"/"} className=" css-for-link-tag" >
               <li>Home</li>
+              </Link>
+              <Link to={"/about"} className=" css-for-link-tag" >
               <li>About Us</li>
+              </Link>
               <li>Contact Us</li>
               <li>Products</li>
               <li>Infrastructure</li>
