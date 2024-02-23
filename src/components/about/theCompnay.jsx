@@ -13,15 +13,14 @@ function TheCompnay() {
         {/* second two div  */}
         <div className="the_company_second_div_main">
           {/* left */}
-          <div className="the_company_left_side_div" >
-            <div className="the_company_left_side_div_contant_section" >
+          <div className="the_company_left_side_div">
+            <div className="the_company_left_side_div_contant_section">
               {/* the company */}
-              <div className="d-flex w-100" >
-                <div className="the_company_before_div" ></div>
-              <div className="the_company_text px-2" >The Company</div>
-
+              <div className="d-flex w-100">
+                <div className="the_company_before_div"></div>
+                <div className="the_company_text px-2">The Company</div>
               </div>
-              <div className="the_company_left_message" >
+              <div className="the_company_left_message">
                 Rakarni established in 2016, is dedicated solely to crafting
                 top-quality gypsum products. With advanced facilities and a
                 skilled team, we specialize in manufacturing products like
@@ -34,11 +33,17 @@ function TheCompnay() {
             </div>
           </div>
           {/* right image */}
-          <div className="the_company_right_side_div" >
+          <div className="the_company_right_side_div">
             {/* image */}
-            {/* <div className="building_image_div" > */}
-              <img src={Building_Image} alt="building" className="img-fluid building_image" />
-            {/* </div> */}
+            <div className="building_image_div" >
+              <div>
+            <img
+              src={Building_Image}
+              alt="building"
+              className="img-fluid building_image"
+              />
+              </div>
+            </div>
           </div>
         </div>
       </div>

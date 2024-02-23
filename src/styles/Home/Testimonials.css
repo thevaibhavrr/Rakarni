@@ -6,11 +6,18 @@
     height: 80vh;
     gap: 30px;
 }
+.heading-text-testimonial{
+    color: white;
+    letter-spacing: 10px;
+    font-size: 40px;
+    font-weight: bold;
+}
 
 .testimonail_card_main{
     background: white;
     border-radius: 20px;
     padding: 40px 0px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(255, 255, 255, 0.09) 0px -3px 5px;
 }
 .testimmonial_card_top{
     display: flex;
@@ -20,6 +27,10 @@
 .testimmonial_card_top_image_section{
     width: 30%;
 }
+.user_image_testimonoal{
+    width: 150px;
+    border-radius: 100px;
+}
 .testimmonial_card_top_details_section{
     width: 100%;
     display: flex;
@@ -27,7 +38,7 @@
     justify-content: flex-end;
     align-items: center;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 24px;
 }
 .testimmonial_card_bottom{
     display: flex;
@@ -37,5 +48,6 @@
 }
 .testimmonial_card_message{
     width: 70%;
-    text-align: center;
+    text-align: justify;
+    font-weight: 600;
 }

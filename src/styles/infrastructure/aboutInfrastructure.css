@@ -1,0 +1,38 @@
+.AboutInfrastructure_main_div{
+    background-image: url("../../Images/infrastructure/infrastructureHomePage.png");
+    /* height: 100vh; */
+    background-size: 100% 100%;
+    background-position: center ;
+}
+/* .Infrastructure_image_section_main_div{
+    display: flex;
+    width: 100%;
+    gap: 10px;
+}
+.INFRASTRUCTURE_heading_main_text{
+    font-size: 60px;
+    text-align: center;
+}
+.Infrastructure_image_left_image{
+    height: 70%;
+}
+
+.Infrastructure_image_section_div{
+    text-align: end;
+    width: 100%;
+}
+.interface_width_for_image{
+    width: 100%;
+}
+.Infrastructure_image_section_div_last{
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+.Infrastructure_image_section_div_text_section{
+    padding: 20px;
+  background: rgba(210, 206, 195, 0.5);
+  backdrop-filter: blur(2px);
+  font-size: 18px;
+
+} */

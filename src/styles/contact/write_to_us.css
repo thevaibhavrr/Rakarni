@@ -1,0 +1,57 @@
+.main_contact_us_write_to_us{
+    display: flex;
+    height: 100vh;
+}
+
+.write_to_us_bg {
+    background: linear-gradient(to left, rgba(0, 0, 0, 1) 50%, transparent 50%), url("../../Images/home/about_us_bg_imag.png");
+    background-size: cover;
+    width: 100%;
+}
+.write_to_us_contant{
+    display:flex;
+    justify-content: center;
+    padding: 100px;
+}
+.write_to_us_contant_left_side{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background:rgba(217,217,217,255);
+    /* padding: 100px; */
+    gap: 50px;
+
+}
+.write_to_us_contant_right_side{
+    width: 70%;
+    padding: 100px;
+    height: 500px;
+}
+.write_to_us_contact_us_button{
+    font-size: 70px;
+    width: 100%;
+}
+.write_to_us_contact_details{
+    font-size: 24px;
+    width: 100%;
+    
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    /* padding: 0px 100px; */
+}
+/* .oragnge_color_div_write_to_us{
+    height: 100px;
+    padding: 10px;
+    background-color: var(--orange-color-header-footer);
+} */
+.write_to_us_contact_email_phone{
+    /* display: flex; */
+    /* justify-content: center; */
+    /* background: #000; */
+}
+.write_to_us_contact_image{
+    width: 30px;
+}

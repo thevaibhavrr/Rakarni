@@ -15,12 +15,18 @@ function Navbar() {
             <Link to={"/"} className=" css-for-link-tag" >
               <li>Home</li>
               </Link>
-              <Link to={"/about"} className=" css-for-link-tag" >
+              <Link to={"/about-us"} className=" css-for-link-tag" >
               <li>About Us</li>
               </Link>
+            <Link to={"/contact-us"} className=" css-for-link-tag" >
+
               <li>Contact Us</li>
+              </Link>
               <li>Products</li>
+            <Link to={"/infrastructure"} className=" css-for-link-tag" >
+
               <li>Infrastructure</li>
+              </Link>
             </ul>
           </div>
         </div>

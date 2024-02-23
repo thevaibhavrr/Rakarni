@@ -1,0 +1,33 @@
+.location-contact-us {
+  /* padding: 50px 15px; */
+  text-align: center;
+  background: #000;
+  padding: 50px;
+}
+.Locate_us_text {
+  font-size: 60px;
+  font-weight: bold;
+  color: white;
+  padding: 20px;
+}
+.location-iframe {
+  border-radius: 30px;
+  width: 80%;
+  min-height: 150px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+@media (min-width: 768px) {
+  .location-iframe {
+    min-height: 300px;
+  }
+}
+@media (min-width: 1023px) {
+  .location-iframe {
+    min-height: 450px;
+  }
+}
+@media (min-width: 2000px) {
+  .location-iframe {
+    min-height: 550px;
+  }
+}

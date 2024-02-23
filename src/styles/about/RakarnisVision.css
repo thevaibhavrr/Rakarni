@@ -1,14 +1,55 @@
-.main_RakarnisVision_div{
-    background-image: url("../../Images/about/rakani_vision.png");
-    height: 100vh;
-    background-size: cover;
-    background-position: center;
-    width: 100%;
+.main_RakarnisVision_div {
+  position: relative;
+  background-image: url("../../Images/about/rakani_vision.png");
+  background-size: cover;
+  background-position: center;
+  padding: 50px 100px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  color: rgb(255, 255, 255);
 }
-.RakarnisVision_div{
-    display: flex;
+
+.main_RakarnisVision_div::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.4);
 }
-.RakarnisVision_div-image{
-        max-width: 100%;
-        height: auto;
+
+.RakarnisVision_div {
+  display: flex;
+  width: 100%;
+  gap: 40px;
+  z-index: 1;
+}
+.RakarnisVision_message {
+  font-size: 22px;
+  letter-spacing: 2px;
+  width: 100%;
+}
+.RakarnisVision_image {
+  width: 100%;
+}
+.RakarnisVision_image_name {
+  font-size: 40px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.RakarnisVision_div-image {
+  width: 90%;
+  height: auto;
+}
+.RakarnisVision_div-image-worker {
+  width: 100%;
+  height: auto;
+}
+.Rakarni_Vision_text {
+  font-size: 40px;
+  font-weight: bold;
 }

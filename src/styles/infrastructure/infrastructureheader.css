@@ -1,0 +1,15 @@
+.infrastructure_page_headinig_image{
+    background-image: url("../../Images/infrastructure/infrastructureHomePage.png");
+    height: 100vh;
+    background-size: cover;
+    background-position: center ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.InfrastructureHeader_header_text {
+    font-size: 100px;
+    font-weight: bold;
+    letter-spacing: 20px;
+    text-shadow: -2px 0 white, 0 2px white, 2px 0 white, 0 -2px white;
+}

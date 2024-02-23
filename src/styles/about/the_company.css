@@ -4,7 +4,21 @@
   background-size: cover;
   background-position: center;
   padding: 100px;
+  position: relative;
 }
+.the_company_main_div::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+.main_RakarnisVision_div_contant {
+  z-index: 1;
+}
+
 .the_company_second_div_main {
   display: flex;
 }
@@ -16,50 +30,58 @@
 .the_company_rakarni_text_div {
   font-size: 60px;
   padding: 20px 60px;
-  background: rgba(196, 190, 173, 0.5);
+  background: rgba(210, 206, 195, 0.5);
   letter-spacing: 20px;
   font-weight: bold;
   border: 0.4px solid rgb(114, 114, 114);
   border-radius: 20px;
   backdrop-filter: blur(2px);
 }
-.the_company_left_side_div{
-    width: 100%;
+.the_company_left_side_div {
+  width: 100%;
 }
-.the_company_right_side_div{
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.the_company_right_side_div {
+  width: 100%;
+   display: flex;
+   justify-content: center; 
+  align-items: center; 
 }
-.building_image_div{
-    width: 100%;
+/* .building_image_div {
+  background: var(--orange-color-header-footer);
+  width: 50%;
+} */
+.building_image_div {
+  /* width: 100%; */
+  background: linear-gradient(to right, var(--orange-color-header-footer) 90%, transparent 10%);
+  width: 50%;
 }
-.building_image{
-    width: 50%;
+
+.building_image {
+  width: 100%;
 }
-.the_company_text{
-    font-size: 35px;
-    font-weight: bold;
-    
+.the_company_text {
+  font-size: 35px;
+  font-weight: bold;
 }
-.the_company_left_side_div_contant_section{
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
+.the_company_left_side_div_contant_section {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
 }
-.the_company_before_div{
-    width: 150px;
-    background: rgba(115, 115, 111, 0.7);
-    border-radius: 20px 20px 00px 0px;
+.the_company_before_div {
+  width: 150px;
+  background: rgba(115, 115, 111, 0.7);
+  border-radius: 20px 20px 00px 0px;
+  backdrop-filter: blur(10px);
 
 }
-.the_company_left_message{
-    background: rgba(115, 115, 111, 0.7);
+.the_company_left_message {
+  background: rgba(115, 115, 111, 0.7);
   backdrop-filter: blur(10px);
-border-radius: 0px 20px 20px 20px;
-    font-size: 23px;
-    color: white;
-    padding: 30px 60px ;
+  border-radius: 0px 20px 20px 20px;
+  font-size: 23px;
+  color: white;
+  padding: 70px 100px;
+  text-align: center;
 }
