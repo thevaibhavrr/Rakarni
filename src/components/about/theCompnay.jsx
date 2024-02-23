@@ -35,13 +35,13 @@ function TheCompnay() {
           {/* right image */}
           <div className="the_company_right_side_div">
             {/* image */}
-            <div className="building_image_div" >
-              <div>
-            <img
-              src={Building_Image}
-              alt="building"
-              className="img-fluid building_image"
-              />
+            <div className="building_image_div">
+              <div className="about_image_poistion" >
+                <img
+                  src={Building_Image}
+                  alt="building"
+                  className="img-fluid building_image"
+                />
               </div>
             </div>
           </div>

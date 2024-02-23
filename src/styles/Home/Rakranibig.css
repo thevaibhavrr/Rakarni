@@ -30,3 +30,14 @@
     width: 500px;
     text-align: end;
 }
+.small_brash_image_div{
+    background-image: url("../../Images/home/small_brush.png");
+    /* height: 50vh; */
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    text-align: end;
+    padding: 40px;
+}
+.small_brush_home_page_image{
+    width: 40%;
+}

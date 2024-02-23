@@ -1,0 +1,78 @@
+/* .main_Ourprocess_div{
+    background-image: url("../../Images/infrastructure/infrastructureHomePage.png");
+    height: 100vh;
+    background-size: cover;
+    background-position: center ;   
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    backdrop-filter: blur(100px);
+} */
+
+.main_Ourprocess_div {
+    position: relative;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+}
+.main_our_process_text{
+    font-size: 60px;
+    padding: 20px;
+
+}
+
+.main_Ourprocess_div::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("../../Images/infrastructure/infrastructureHomePage.png");
+    background-size: cover;
+    background-position: center;
+    filter: blur(10px); /* Adjust the pixel value to increase or decrease the amount of blur */
+    z-index: -1;
+}
+.video-container {
+    width: 100%;
+    /* padding-top: 50px; */
+    padding: 10px 200px;
+    background: var(--gay-main-bg-color);
+    height: 80vh;
+    /* margin: 100px; */
+  }
+  .yout_video_iframe {
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    background: #ffffff;
+    border-radius: 30px;
+    border: none;
+  }
+  
+  @media (max-width: 678px) {
+    .video-container {
+      padding: 20px 100px;
+      height: 50vh;
+    }
+    .yout_video_iframe {
+      width: 100%;
+      height: 100%;
+      padding: 10px;
+    }
+  }
+  @media (max-width: 500px) {
+    .video-container {
+      padding: 20px 70px;
+      height: 50vh;
+    }
+    .yout_video_iframe {
+      width: 100%;
+      height: 100%;
+      padding: 10px;
+    }
+  }
+  

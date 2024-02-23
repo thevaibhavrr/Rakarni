@@ -8,7 +8,7 @@ function About() {
     <div>
       <HeaderImage/>
       <TheCompnay/>
-      {/* <RakarnisVision/> */}
+      <RakarnisVision/>
         
 
 
