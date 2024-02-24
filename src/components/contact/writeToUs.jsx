@@ -12,7 +12,10 @@ function WriteToUs() {
             {/* left */}
             <div className="write_to_us_contant_left_side">
               {/* contact us text */}
-              <div className="write_to_us_contact_us_button">Contact Us.</div>
+              <div className="write_to_us_contact_us_button">Contact Us.
+              <div className="yellow_color_box"></div>
+               </div>
+              
               {/* details */}
               <div className="write_to_us_contact_details">
                 {/* email */}
@@ -40,35 +43,55 @@ function WriteToUs() {
                 </div>
               </div>
               {/* orange */}
-            {/* <div className="oragnge_color_div_write_to_us"></div> */}
+              {/* <div className="oragnge_color_div_write_to_us"></div> */}
             </div>
             {/* right */}
             <div className="write_to_us_contant_right_side">
               {/* details */}
               <div>
-                <div>Write to us.</div>
+                <div className="write_to_us_contact_us_button text-white">
+                  Write to us.
+                </div>
                 {/* from */}
-                <div>
+                <div className="write_to_us_parent">
                   {/* name */}
-                  <div>
-                    <input type="text" />
+                  <div className="input_filed_div_write_to_us">
+                    <input
+                      type="text"
+                      className="input_fiiled_write_to_us"
+                      placeholder="name"
+                    />
                   </div>
                   {/* phone number */}
-                  <div>
-                    <input type="text" />
+                  <div className="input_filed_div_write_to_us">
+                    <input
+                      type="text"
+                      className="input_fiiled_write_to_us"
+                      placeholder="Phone Number"
+                    />
                   </div>
                   {/* email */}
-                  <div>
-                    <input type="text" />
+                  <div className="input_filed_div_write_to_us">
+                    <input
+                      type="text"
+                      className="input_fiiled_write_to_us"
+                      placeholder="Email Address"
+                    />
                   </div>
                   {/* message */}
                   <div>
-                    <textarea type="text" />
+                    <textarea
+                      type="text"
+                      className="input_fiiled_write_to_us"
+                      placeholder="Message"
+                    />
                   </div>
                   {/* button */}
                   <div>
                     {" "}
-                    <button>Submit</button>{" "}
+                    <button className="write_to_us_submit_button">
+                      Submit
+                    </button>{" "}
                   </div>
                 </div>
               </div>

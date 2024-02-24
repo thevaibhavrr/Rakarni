@@ -1,9 +1,12 @@
 .testimonail_main_div{
     background: #919191;
+    /* background: linear-gradient(216deg, #919191, #ebe2e2); */
+
+
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    height: 80vh;
+    /* height: 100vh; */
+    padding: 100px 0px ;
     gap: 30px;
 }
 .heading-text-testimonial{
@@ -28,7 +31,8 @@
     width: 30%;
 }
 .user_image_testimonoal{
-    width: 150px;
+    /* max-width: 150px; */
+    width: 100%;
     border-radius: 100px;
 }
 .testimmonial_card_top_details_section{

@@ -1,12 +1,13 @@
 .main_why_choose_us{
     background: var(--home-page-gry-color);
-    height: 100vh;
+    /* height: 100vh; */
+    padding:100px 10px;
 }
 .main_why_choose_us_second{
     display: flex;
     color: white;
     gap: 10px;
-    padding: 100px;
+    padding: 50px 100px;
 }
 .main_why_choose_us_second_left_side{
     width: 60%;

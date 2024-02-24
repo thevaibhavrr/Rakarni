@@ -1,4 +1,4 @@
-import React, {  useState } from "react";
+import React, { useState } from "react";
 import "../../styles/Home/Testimonials.css";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
@@ -7,7 +7,7 @@ import "swiper/css/navigation";
 
 function Testimonials() {
   const [swiperRef, setSwiperRef] = useState(null);
-  const [activeIndex, setActiveIndex] = useState(1); 
+  const [activeIndex, setActiveIndex] = useState(1);
 
   const handleSlideChange = () => {
     if (swiperRef) {
@@ -63,7 +63,9 @@ function Testimonials() {
     <>
       <div className="testimonail_main_div">
         {/* <div className="main-slider-div"> */}
-        <h3 className="heading-text-testimonial text-center">Testimonials</h3>
+        <div>
+          <h3 className="heading-text-testimonial text-center">Testimonials</h3>
+        </div>
         <div className="our-product-slider-start ">
           {/* big screen */}
           {/* <div className="testimonail_for_big_screen"> */}
@@ -78,14 +80,16 @@ function Testimonials() {
               type: "fraction",
             }}
             className="mySwiper"
-            
           >
             {images.map((testimonial, index) => (
               <SwiperSlide key={index} style={{ position: "relative" }}>
-                <div className="testimonail_card_main"   style={{
-                      transform: `scale(${activeIndex === index ? 1 : 0.8})`,
-                      transition: "transform 0.3s ease-in-out",
-                    }}>
+                <div
+                  className="testimonail_card_main"
+                  style={{
+                    transform: `scale(${activeIndex === index ? 1 : 0.8})`,
+                    transition: "transform 0.3s ease-in-out",
+                  }}
+                >
                   {/* top */}
                   <div className="testimmonial_card_top">
                     {/* image */}
@@ -114,40 +118,6 @@ function Testimonials() {
             ))}
           </Swiper>
         </div>
-        {/* left */}
-        {/* <div className="prev-next-buttons">
-              <div>
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="16"
-                  height="16"
-                  fill="currentColor"
-                  class="bi bi-caret-left-fill"
-                  viewBox="0 0 16 16"
-                  onClick={handlePrevClick}
-                  className="prev-button"
-                >
-                  <path d="m3.86 8.753 5.482 4.796c.646.566 1.658.106 1.658-.753V3.204a1 1 0 0 0-1.659-.753l-5.48 4.796a1 1 0 0 0 0 1.506z" />
-                </svg>
-              </div>
-
-              <div>
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="16"
-                  height="16"
-                  fill="currentColor"
-                  class="bi bi-caret-right-fill"
-                  viewBox="0 0 16 16"
-                  onClick={handleNextClick}
-                  className="next-button"
-                >
-                  <path d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z" />
-                </svg>
-              </div>
-            </div> */}
-        {/* </div> */}
-        {/* </div> */}
       </div>
     </>
   );

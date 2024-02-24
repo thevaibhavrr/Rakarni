@@ -5,7 +5,7 @@ import Icon from "../../Images/navbar/main_icon.png";
 function HomePageImagesection() {
   return (
     <>
-      <div className="Home_page_image">
+      <div className="Home_page_image"> 
         {/* image */}
         <div className="Home_page_image_section">
           <div className="images_home">

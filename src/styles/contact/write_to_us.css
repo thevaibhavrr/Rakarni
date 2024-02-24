@@ -1,6 +1,6 @@
 .main_contact_us_write_to_us{
     display: flex;
-    height: 100vh;
+    /* height: 100vh; */
 }
 
 .write_to_us_bg {
@@ -10,48 +10,72 @@
 }
 .write_to_us_contant{
     display:flex;
-    justify-content: center;
     padding: 100px;
 }
 .write_to_us_contant_left_side{
+    /* position: relative; */
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    background:rgba(217,217,217,255);
-    /* padding: 100px; */
-    gap: 50px;
-
+    /* background:rgba(217,217,217,255); */
+    /* border-bottom: 25px solid var(--orange-color-header-footer); */
+    border-image: linear-gradient(to right, transparent 10%, var(--orange-color-header-footer) 10%) 1;
+    background: linear-gradient(to right, transparent 10%, rgba(217, 217, 217, 1) 10%);
 }
 .write_to_us_contant_right_side{
     width: 70%;
-    padding: 100px;
-    height: 500px;
+    padding: 0px 50px;
 }
 .write_to_us_contact_us_button{
-    font-size: 70px;
+    font-size: 60px;
     width: 100%;
+    position: relative;
 }
 .write_to_us_contact_details{
     font-size: 24px;
-    width: 100%;
-    
+    /* width: 100%; */
     display: flex;
     justify-content: center;
     gap: 15px;
-    /* padding: 0px 100px; */
 }
-/* .oragnge_color_div_write_to_us{
-    height: 100px;
-    padding: 10px;
-    background-color: var(--orange-color-header-footer);
-} */
-.write_to_us_contact_email_phone{
-    /* display: flex; */
-    /* justify-content: center; */
-    /* background: #000; */
-}
+
 .write_to_us_contact_image{
     width: 30px;
+}
+.yellow_color_box{
+    background: rgba(207,191,109,0.7);
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    /* z-index: 0; */
+    top: 42%;
+    left: 39%;
+    transform: translate(-50%, -50%);
+   
+}
+
+/* form */
+.write_to_us_parent{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.input_fiiled_write_to_us{
+    width: 100%;
+    padding: 14px;
+    border-radius: 10px;
+    background: var(--home-page-gry-color);
+    border: 1px solid white;
+    font-weight: bold;
+}
+.write_to_us_submit_button{
+    padding: 6px 50px ;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    font-size: 25px;
+    background: var(--orange-color-header-footer);
 }

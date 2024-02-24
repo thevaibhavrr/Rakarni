@@ -17,20 +17,20 @@
   /* margin-left: 60px; */
 }
 .out_product_message{
-   font-size: 18px; 
+   font-size: 20px; 
 }
 .our-product-right-sanction {
   display: flex;
   justify-content: center;
   align-items: center;
   width: 100%;
-  background-color: #d2d3d5;
+  background-color: var(--secondary-gry-color);
 }
 .our-product-text-sanction {
-  width: 40%;
-  font-size: 20px;
+  /* width: 40%; */
   word-spacing: 10px;
   text-align: center;
+  padding: 130px;
 }
 .our-product-text{
   text-align: center;

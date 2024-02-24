@@ -1,9 +1,10 @@
 .about_us_main_div_home_page{
-    height: 100vh;
+    /* height: 100vh; */
     background-image: url("../../Images/home/about_us_bg_imag.png");
     display: flex;
     justify-content: flex-end;
     align-items: center;
+    padding: 100px 0px;
 }
 
 .about_us_contant_div_main{
@@ -13,16 +14,17 @@
     /* gap: 40px; */
     width: 90%;
     padding: 30px;
-    border-radius: 150px 0px 0px 150px ;
+    border-radius: 130px 0px 0px 130px ;
 }
 .worker_image_about_page{
     width: 100%;
-    display: flex;
-    align-items: center;
-    padding: 50px;
 }
 .about_us_Image_section{
     border-right: 3px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
 }
 .about_us_text_contant_section{
     width: 100%;
@@ -36,13 +38,15 @@
     font-size: 20px;
     letter-spacing: 10px;
     font-weight: bold;
+
 }
 .about_us_text_contant_section_message{
-    width: 60%;
-    text-align: center;
+    padding: 0px 50px;
+    text-align: justify;
+    font-size: 20px;
 }
 .about_us_Know_more_button{
-    background: white;
+    background:var(--secondary-gry-color);
     padding: 5px 20px;
     margin-top: 10px;
     cursor: pointer;
