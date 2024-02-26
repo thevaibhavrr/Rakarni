@@ -1,19 +1,19 @@
 import React from "react";
 import "../../styles/product/productHeader.css";
-import cement from "../../Images/home/cement.png";
+import cement from "../../Images/product/product_header.png";
 import Icon from "../../Images/navbar/main_icon.png";
 function ProductHeader() {
   return (
     <>
       <div className="Product_Header_main">
         <div className="about_us_header_text p-5 ">Products</div>
-        <div className="images_home">
+        <div className="images_home text-center">
           {/* top */}
           <div>
             <img src={Icon} alt="icon" />
           </div>
           {/* cement */}
-          <div>
+          <div className="pt-5" >
             <img
               src={cement}
               alt="project"
