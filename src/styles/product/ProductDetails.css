@@ -1,0 +1,58 @@
+.main_ProductDetails_div{
+    background-image: url("../../Images/product/product_details_bg.png");
+    background-size: 100% 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+}
+/* top */
+.ProductDetails_left_side_main{
+    padding: 50px ;
+}
+.product_details_text_main_div_for_bg{
+    /* background: rgba(210, 206, 195, 0.5); */
+    backdrop-filter: blur(10px);
+    border-radius: 45px;
+    display: flex;
+    padding: 20px;
+    max-height: 500px;
+    background: var(--light-blur-color);
+}
+.cement_image_product_details{
+    /* scale: 1.1; */
+    width: 45%;
+}
+.right_image_section_our_product{
+    padding-top: 60px;
+}
+.product_details_text_section{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.Rakarni_ProductDetails_main_text_heading{
+    font-size: 25px;
+}
+.Rakarni_ProductDetails_main_text_message{
+    font-size: 23px;
+}
+.Know_more_button{
+    background: var(--orange-color-header-footer);
+    padding: 15px 40px;
+    border: none;
+    font-size: 20px;
+
+    border-radius: 13px;
+}
+/* bottom */
+.Prodct_details_docs{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 50px;
+
+}
+.product_doc_image{
+    width: 80%;
+}

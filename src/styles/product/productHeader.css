@@ -1,0 +1,10 @@
+.Product_Header_main {
+  background-image: url("../../Images/product/header_image.png");
+  height: 100vh;
+  background-size: 100% 100%;
+  background-position: center;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  position: relative;
+}

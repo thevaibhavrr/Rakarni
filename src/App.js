@@ -6,6 +6,7 @@ import { Route, Routes } from "react-router-dom";
 import Footer from "./components/footer";
 import Contact from "./pages/Contact";
 import Infrastructure from "./pages/Infrastructure";
+import Product from "./pages/product";
 
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
       <Route path="/about-us" element={<About />} />
       <Route path="/contact-us" element={<Contact />} />
       {/* <Route path="/infrastructure" element={<Infrastructure />} /> */}
+      <Route path="/product" element={<Product />} />
       </Routes>
       <Footer/>
     </div>

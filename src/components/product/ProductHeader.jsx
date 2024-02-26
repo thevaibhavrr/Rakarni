@@ -1,13 +1,12 @@
 import React from "react";
-import "../../styles/contact/contact_us_header.css";
+import "../../styles/product/productHeader.css";
 import cement from "../../Images/home/cement.png";
 import Icon from "../../Images/navbar/main_icon.png";
-
-function HeaderImage() {
+function ProductHeader() {
   return (
     <>
-      <div className="contact_us_header_image">
-        <div className="about_us_header_text p-5 text-white">Contact Us</div>
+      <div className="Product_Header_main">
+        <div className="about_us_header_text p-5 ">Products</div>
         <div className="images_home">
           {/* top */}
           <div>
@@ -27,4 +26,4 @@ function HeaderImage() {
   );
 }
 
-export default HeaderImage;
+export default ProductHeader;

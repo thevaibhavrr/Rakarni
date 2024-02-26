@@ -33,7 +33,7 @@
     background-image: url("../../Images/infrastructure/infrastructureHomePage.png");
     background-size: cover;
     background-position: center;
-    filter: blur(10px); /* Adjust the pixel value to increase or decrease the amount of blur */
+    filter: blur(10px); 
     z-index: -1;
 }
 .video-container {

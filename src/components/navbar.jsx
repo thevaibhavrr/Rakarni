@@ -10,22 +10,22 @@ function Navbar() {
           <div>
             <img src={Icon} alt="navbar_logo" />
           </div>
-          <div className="navbar_items_right_div" >
-            <ul className="navbar_ul" >
-            <Link to={"/"} className=" css-for-link-tag" >
-              <li>Home</li>
+          <div className="navbar_items_right_div">
+            <ul className="navbar_ul">
+              <Link to={"/"} className=" css-for-link-tag">
+                <li>Home</li>
               </Link>
-              <Link to={"/about-us"} className=" css-for-link-tag" >
-              <li>About Us</li>
+              <Link to={"/about-us"} className=" css-for-link-tag">
+                <li>About Us</li>
               </Link>
-            <Link to={"/contact-us"} className=" css-for-link-tag" >
-
-              <li>Contact Us</li>
+              <Link to={"/contact-us"} className=" css-for-link-tag">
+                <li>Contact Us</li>
               </Link>
-              <li>Products</li>
-            <Link to={"/infrastructure"} className=" css-for-link-tag" >
-
-              <li>Infrastructure</li>
+              <Link to={"/product"} className=" css-for-link-tag">
+                <li>Products</li>
+              </Link>
+              <Link to={"/infrastructure"} className=" css-for-link-tag">
+                <li>Infrastructure</li>
               </Link>
             </ul>
           </div>
