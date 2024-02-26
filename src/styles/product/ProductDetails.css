@@ -29,6 +29,7 @@
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
+    padding: 50px;
 }
 .Rakarni_ProductDetails_main_text_heading{
     font-size: 25px;

@@ -8,29 +8,35 @@ function ProductDetails() {
     <>
       <div className="main_ProductDetails_div">
         {/* top */}
-        <div className="ProductDetails_left_side_main" >
+        <div className="ProductDetails_left_side_main">
           {/* div */}
           <div className="product_details_text_main_div_for_bg">
             {/* text */}
-            <div className="w-100 product_details_text_section" >
-                {/* hading */}
-                <div className="Rakarni_ProductDetails_main_text_heading">Rakarni Gypsum</div>
-                {/* message */}
-                <div className="Rakarni_ProductDetails_main_text_message" >
-                  "Stand before a modern gypsum facility, its minimalist design
-                  rising confidently. Without glass, its strength is evident.
-                  Write a piece inspired by this contemporary perspective,
-                  embracing innovation in the gypsum industry."
-                </div>
-                {/* button */}
-                <div>
-                    <button className="Know_more_button" >Know more</button>
-                    {/* Know More */}
-                    </div>
+            <div className="w-100 product_details_text_section">
+              {/* hading */}
+              <div className="Rakarni_ProductDetails_main_text_heading">
+                Rakarni Gypsum
+              </div>
+              {/* message */}
+              <div className="Rakarni_ProductDetails_main_text_message">
+                "Stand before a modern gypsum facility, its minimalist design
+                rising confidently. Without glass, its strength is evident.
+                Write a piece inspired by this contemporary perspective,
+                embracing innovation in the gypsum industry."
+              </div>
+              {/* button */}
+              <div>
+                <button className="Know_more_button">Know more</button>
+                {/* Know More */}
+              </div>
             </div>
             {/* image */}
             <div className="w-75 text-center right_image_section_our_product">
-              <img src={cement} alt="cement" className="cement_image_product_details" />
+              <img
+                src={cement}
+                alt="cement"
+                className="cement_image_product_details"
+              />
             </div>
           </div>
         </div>
