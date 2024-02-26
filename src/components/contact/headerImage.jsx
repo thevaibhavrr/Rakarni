@@ -8,7 +8,7 @@ function HeaderImage() {
     <>
       <div className="contact_us_header_image">
         <div className="about_us_header_text p-5 text-white">Contact Us</div>
-        <div className="images_home">
+        <div className="images_home text-center" >
           {/* top */}
           <div>
             <img src={Icon} alt="icon" />

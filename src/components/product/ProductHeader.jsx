@@ -7,13 +7,13 @@ function ProductHeader() {
     <>
       <div className="Product_Header_main">
         <div className="about_us_header_text p-5 ">Products</div>
-        <div className="images_home text-center">
+        <div className="images_home about_us_header_image text-center">
           {/* top */}
           <div>
             <img src={Icon} alt="icon" />
           </div>
           {/* cement */}
-          <div className="pt-5" >
+          <div className="pt-5">
             <img
               src={cement}
               alt="project"

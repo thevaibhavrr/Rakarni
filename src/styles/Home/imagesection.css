@@ -12,7 +12,7 @@
 }
 .images_home {
   position: absolute;
-  background: #9a9a9a80;
+  background: var(--dark-gry-color-for-bg);
   border-radius: 20px;
   left: 100px;
   top: 100px;
