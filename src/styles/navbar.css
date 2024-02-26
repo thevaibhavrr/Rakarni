@@ -3,7 +3,9 @@
   background: #2827277e;
   position: relative;
   font-family: var(--Play-font-family);
-
+}
+.navbar_logo{
+  width: 100%;
 }
 .second_navbar_main_div {
   display: flex;
@@ -33,4 +35,24 @@
 .navbar_ul li {
   font-size: 20px;
   list-style: none;
+}
+
+@media (max-width: 1024px) {
+  .second_navbar_main_div {
+    width: 90%;
+  }
+  .navbar_ul li {
+    font-size: 17px;
+  }
+}
+@media (max-width: 820px) {
+  .second_navbar_main_div {
+    width: 95%;
+  }
+  .navbar_logo{
+    width: 100%;
+  }
+  .navbar_items_left_div{
+    width: 40%;
+  }
 }

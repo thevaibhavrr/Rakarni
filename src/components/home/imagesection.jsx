@@ -11,7 +11,7 @@ function HomePageImagesection() {
           <div className="images_home">
             {/* top */}
             <div>
-              <img src={Icon} alt="icon" />
+              <img src={Icon} alt="icon" className="company_icon" />
             </div>
             {/* cement */}
             <div>

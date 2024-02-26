@@ -9,7 +9,7 @@ function Rakranibig() {
           {/* top */}
           <div className="text-end" >
             {/* heading */}
-            <div className="welcome_to_rakarni_text text-black" >WELCOME TO RAKARNI</div>
+            <div className="welcome_to_rakarni_text_for_big text-black" >WELCOME TO RAKARNI</div>
             {/* message */}
             <div className="Rakranibig_message_div_parent " >
                 <div  className="Rakranibig_message_div" >

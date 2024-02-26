@@ -1,6 +1,5 @@
 .rakarni_main_div {
   height: 100vh;
-  /* background: rgba(81, 81, 81, 255); */
   background: var(--home-page-gry-color);
   position: relative;
 }
@@ -20,5 +19,33 @@
   letter-spacing: 20px;
   font-family: var(--Playfair-Display-font-family);
   font-weight: bolder;
-
+}
+.small_brash_image_div {
+  background-image: url("../../Images/home/small_brush.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  text-align: end;
+  padding: 40px;
+}
+.small_brush_home_page_image {
+  width: 40%;
+}
+@media (max-width: 1025px) {
+  .welcome_to_rakarni_text {
+    font-size: 50px;
+    letter-spacing: 20px;
+  }
+}
+@media (max-width: 920px) {
+  .rakarni_main_div {
+    height: 90vh;
+  }
+  .small_brush_home_page_image {
+    width: 45%;
+  }
+.small_brash_image_div {
+  padding: 20px;
+  background-size: cover;
+  background-position: center;
+}
 }

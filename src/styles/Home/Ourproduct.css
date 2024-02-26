@@ -12,11 +12,7 @@
   align-items: center;
   /* padding: 50px; */
 }
-.cement-image-out-product {
-  /* height: 20px; */
-  /* width: 3px; */
-  /* margin-left: 60px; */
-}
+
 .out_product_message{
    font-size: 20px; 
 }
@@ -40,4 +36,26 @@
   font-size: 30px;  
   font-weight: bold;
   
+}
+@media (max-width: 1025px) {
+.our-product-right-sanction {
+  padding: 10px;
+}
+.our-product-text-sanction {
+  padding: 70px;
+}
+.our-product-left-sanction {
+  width: 50%;
+}
+}
+@media (max-width: 840px) {
+  .out_product_message{
+    font-size: 17px; 
+ }
+  .our-product-right-sanction {
+    padding: 8px;
+  }
+  .our-product-text-sanction {
+    padding: 50px;
+  }
 }

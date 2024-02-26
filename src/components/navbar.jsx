@@ -7,8 +7,8 @@ function Navbar() {
     <>
       <div className="main_navbar_div">
         <div className="second_navbar_main_div">
-          <div>
-            <img src={Icon} alt="navbar_logo" />
+          <div className="navbar_items_left_div">
+            <img src={Icon} alt="navbar_logo" className="navbar_logo" />
           </div>
           <div className="navbar_items_right_div">
             <ul className="navbar_ul">

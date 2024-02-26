@@ -9,17 +9,17 @@ function WorkDone() {
     {
       image : Person_Image,
       name: "Happy Customers",
-      number : "100"
+      number : "500"
     },
     {
       image : Maintenance,
       name: "Work Done",
-      number : "100"
+      number : "100+"
     },
     {
       image : member_Image,
       name: "Team Member",
-      number : "100"
+      number : "120+"
     },
   ]
   return (

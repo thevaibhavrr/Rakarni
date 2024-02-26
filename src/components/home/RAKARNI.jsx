@@ -1,6 +1,5 @@
 import React from "react";
 import "../../styles/Home/RAKARNI.css";
-import smallbrush from "../../Images/home/small_brush.png";
 import smallBrush_cement from "../../Images/home/pop_for_big_brush.png"
 function RAKARNI() {
   return (

@@ -18,6 +18,22 @@
   top: 100px;
   padding: 30px;
 }
-.home_page_cement_image{
-    width: 100%;
+.home_page_cement_image {
+  width: 100%;
+}
+.company_icon {
+  width: 100%;
+}
+@media (max-width: 1025px) {
+  .images_home {
+    padding: 15px;
+    left: 60px;
+    top: 60px;
+  }
+  .home_page_cement_image {
+    width: 80%;
+  }
+  .company_icon {
+    width: 80%;
+  }
 }

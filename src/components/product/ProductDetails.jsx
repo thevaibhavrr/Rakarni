@@ -3,6 +3,7 @@ import "../../styles/product/ProductDetails.css";
 import ECO from "../../Images/product/Project (22) 1.png";
 import cement from "../../Images/product/product_cement.png";
 import Satisfaction from "../../Images/product/Project (23) 1.png";
+
 function ProductDetails() {
   return (
     <>
