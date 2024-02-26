@@ -2,6 +2,8 @@
   min-height: 100px;
   background: #2827277e;
   position: relative;
+  font-family: var(--Play-font-family);
+
 }
 .second_navbar_main_div {
   display: flex;
