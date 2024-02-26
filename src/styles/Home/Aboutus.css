@@ -5,6 +5,8 @@
     justify-content: flex-end;
     align-items: center;
     padding: 100px 0px;
+  font-family: var(--Playfair-Display-font-family);
+
 }
 
 .about_us_contant_div_main{

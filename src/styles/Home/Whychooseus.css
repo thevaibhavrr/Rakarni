@@ -1,7 +1,8 @@
 .main_why_choose_us{
     background: var(--home-page-gry-color);
-    /* height: 100vh; */
     padding:100px 10px;
+  font-family: var(--Playfair-Display-font-family);
+
 }
 .main_why_choose_us_second{
     display: flex;

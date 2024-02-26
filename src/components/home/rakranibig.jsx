@@ -9,7 +9,7 @@ function Rakranibig() {
           {/* top */}
           <div className="text-end" >
             {/* heading */}
-            <div className="welcome_to_rakarni_text" >WELCOME TO RAKARNI</div>
+            <div className="welcome_to_rakarni_text text-black" >WELCOME TO RAKARNI</div>
             {/* message */}
             <div className="Rakranibig_message_div_parent " >
                 <div  className="Rakranibig_message_div" >
@@ -21,7 +21,9 @@ function Rakranibig() {
             </div>
           </div>
           {/* bottom */}
-          <div className="right_side_div_of_Rakranibig_main_boottom" >Our Premier Destination for High-Quality Gypsum Solutions.</div>
+          <div className="right_side_div_of_Rakranibig_main_boottom" >
+
+            Our Premier Destination for High-Quality Gypsum Solutions.</div>
         </div>
       </div>
     </>

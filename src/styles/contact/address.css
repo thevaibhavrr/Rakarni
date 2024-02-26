@@ -9,6 +9,7 @@
   font-weight: bold;
   color: white;
   padding: 20px;
+  font-family: var(--Playfair-Display-font-family);
 }
 .location-iframe {
   border-radius: 30px;

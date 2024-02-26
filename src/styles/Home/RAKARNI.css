@@ -18,4 +18,7 @@
   color: white;
   font-size: 60px;
   letter-spacing: 20px;
+  font-family: var(--Playfair-Display-font-family);
+  font-weight: bolder;
+
 }

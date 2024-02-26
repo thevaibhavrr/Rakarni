@@ -6,6 +6,7 @@
     /* justify-content: space-around; */
     justify-content: space-evenly;
     padding: 70px 50px;
+    font-family: var(--Playfair-Display-font-family);
 }
 .product_service_div{
     width: 300px;
@@ -24,12 +25,15 @@
     gap: 30px;
 }
 .product_service_heading{
-    font-weight: bold;
+    font-weight:800;
+    letter-spacing: 1px;
     text-align: center;
+
 }
 .product_service_message ul{
 display: flex;
 flex-direction: column;
 gap: 15px;
-font-size: 16px;
+font-size: 18px;
+font-weight: 500;
 }

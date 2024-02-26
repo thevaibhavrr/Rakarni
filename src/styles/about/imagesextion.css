@@ -9,5 +9,8 @@
 }
 .about_us_header_text{
     font-size: 90px;
-    font-weight: 400;
+    /* font-weight: 400; */
+  font-family: var(--Playfair-Display-font-family);
+
+    font-weight: bold;
 }

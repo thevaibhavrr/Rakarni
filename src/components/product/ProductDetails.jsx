@@ -24,8 +24,9 @@ function ProductDetails() {
                 Write a piece inspired by this contemporary perspective,
                 embracing innovation in the gypsum industry."
               </div>
+              {/* <div className="my-5 bg-black" ></div> */}
               {/* button */}
-              <div>
+              <div className="mt-5" >
                 <button className="Know_more_button">Know more</button>
                 {/* Know More */}
               </div>

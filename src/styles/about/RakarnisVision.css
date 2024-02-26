@@ -30,16 +30,20 @@
   font-size: 22px;
   letter-spacing: 2px;
   width: 100%;
+  font-family: var(--Play-font-family);
+
 }
 .RakarnisVision_image {
   width: 100%;
 }
 .RakarnisVision_image_name {
-  font-size: 40px;
+  font-size: 37px;
   font-weight: bold;
   display: flex;
   justify-content: center;
   align-items: center;
+  font-family: var(--Playfair-Display-font-family);
+
 }
 .RakarnisVision_div-image {
   width: 90%;

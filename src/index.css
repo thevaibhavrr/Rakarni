@@ -16,10 +16,21 @@ code {
  color: black;
 }
 
+/* font */
+/* Playfair Display */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+/* play */
+@import url('https://fonts.googleapis.com/css2?family=Play:wght@400;700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
 :root{
   --home-page-gry-color:rgba(81, 81, 81, 255);
   --secondary-gry-color:#d2d3d5;
   --orange-color-header-footer:rgb(221, 96, 58);
   --light-blur-color: #edededa1;
   --dark-gry-color-for-bg:#79787880;
+
+  /* font */
+  --Playfair-Display-font-family:"Playfair Display", serif;
+  --Play-font-family:"Play", sans-serif;
+  
 }
