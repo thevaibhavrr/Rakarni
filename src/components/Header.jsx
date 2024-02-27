@@ -8,15 +8,13 @@ function Header() {
     <>
       <div className="" >
         {/* navbar for small screen */}
-        <div className="card_for_small_screen">
-          <div className="back-ground-tea-image">
+        <div className="navbar_for_small_scree main_header_for_small_nav">
             <SmallNavbar />
-          </div>
         </div>
 
         {/* for big screen navbar */}
-        <div className="main_header_for_small_nav back-ground-tea-image">
-          {/* <Navbar/> */}
+        <div className="navbar_for_big_screen">
+          <Navbar/>
         </div>
       </div>
     </>
