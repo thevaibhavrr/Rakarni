@@ -1,11 +1,25 @@
-.contact_us_header_image{
-    background-image: url("../../Images/contact-us/contact-us-header.png");
-    height: 100vh;
-    background-size: 100% 100%;
-    background-position: center ;
-    display: flex;
-    justify-content: flex-end;
-    align-items: flex-end;
+.contact_us_header_image {
+  background-image: url("../../Images/contact-us/contact-us-header.png");
+  height: 100vh;
+  background-size: 100% 100%;
+  background-position: center;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
   position: relative;
-
+}
+._header_text_for_bg {
+  font-size: 90px;
+  font-family: var(--Playfair-Display-font-family);
+  font-weight: bold;
+}
+@media (max-width:900px) {
+  ._header_text_for_bg {
+    font-size: 60px;
+  }
+}
+@media (max-width:800px) {
+  ._header_text_for_bg {
+    font-size: 55px;
+  }
 }

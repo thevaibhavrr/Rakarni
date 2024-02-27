@@ -7,11 +7,11 @@ function HeaderImage() {
   return (
     <>
       <div className="contact_us_header_image">
-        <div className="about_us_header_text p-5 text-white">Contact Us</div>
+        <div className="_header_text_for_bg p-5 text-white">Contact Us</div>
         <div className="images_home text-center" >
           {/* top */}
           <div>
-            <img src={Icon} alt="icon" />
+            <img src={Icon} alt="icon" className="company_icon" />
           </div>
           {/* cement */}
           <div>

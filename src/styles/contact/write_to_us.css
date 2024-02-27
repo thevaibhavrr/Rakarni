@@ -2,7 +2,7 @@
   display: flex;
   /* height: 100vh; */
   font-family: var(--Playfair-Display-font-family);
-font-weight: bold;
+  font-weight: bold;
 }
 
 .write_to_us_bg {
@@ -16,14 +16,12 @@ font-weight: bold;
   padding: 100px;
 }
 .write_to_us_contant_left_side {
-  /* position: relative; */
   width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  /* background:rgba(217,217,217,255); */
-  /* border-bottom: 25px solid var(--orange-color-header-footer); */
+  border-bottom: 25px solid var(--orange-color-header-footer);
   border-image: linear-gradient(
       to right,
       transparent 10%,
@@ -47,7 +45,6 @@ font-weight: bold;
 }
 .write_to_us_contact_details {
   font-size: 24px;
-  /* width: 100%; */
   display: flex;
   justify-content: center;
   gap: 15px;
@@ -61,7 +58,6 @@ font-weight: bold;
   width: 70px;
   height: 70px;
   position: absolute;
-  /* z-index: 0; */
   top: 42%;
   left: 39%;
   transform: translate(-50%, -50%);
@@ -89,4 +85,78 @@ font-weight: bold;
   color: white;
   font-size: 25px;
   background: var(--orange-color-header-footer);
+}
+
+@media (max-width: 1030px) {
+  .write_to_us_contant {
+    display: flex;
+    padding: 60px;
+  }
+  .write_to_us_contant_right_side {
+    width: 70%;
+    padding: 0px 20px;
+  }
+  .write_to_us_contact_us_button {
+    font-size: 50px;
+  }
+  .write_to_us_contact_details {
+    font-size: 22px;
+    gap: 10px;
+  }
+  .write_to_us_contact_image {
+    width: 25px;
+  }
+  .yellow_color_box {
+    top: 50%;
+    left: 50%;
+  }
+  /* form */
+  .write_to_us_parent {
+    gap: 10px;
+  }
+  .input_fiiled_write_to_us {
+    padding: 10px;
+  }
+  .write_to_us_submit_button {
+    padding: 6px 40px;
+    font-size: 22px;
+  }
+}
+
+@media (max-width: 900px) {
+  .write_to_us_contant {
+    display: flex;
+    padding: 40px;
+  }
+  .write_to_us_contant_right_side {
+    width: 90%;
+    padding: 0px 10px;
+  }
+  .write_to_us_contact_us_button {
+    font-size: 40px;
+  }
+  .write_to_us_contact_details {
+    font-size: 18px;
+    gap: 8px;
+  }
+  .write_to_us_contact_image {
+    width: 22px;
+  }
+  .yellow_color_box {
+    width: 50px;
+    height: 50px;
+    top: 50%;
+    left: 55%;
+  }
+  /* form */
+  .write_to_us_parent {
+    gap: 8x;
+  }
+  .input_fiiled_write_to_us {
+    padding: 7px;
+  }
+  .write_to_us_submit_button {
+    padding: 6px 30px;
+    font-size: 20px;
+  }
 }

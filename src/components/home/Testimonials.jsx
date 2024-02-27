@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import "../../styles/Home/Testimonials.css";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
@@ -8,12 +8,31 @@ import "swiper/css/navigation";
 function Testimonials() {
   const [swiperRef, setSwiperRef] = useState(null);
   const [activeIndex, setActiveIndex] = useState(1);
+  const [slidesPerView, setSlidesPerView] = useState(2.7);
 
   const handleSlideChange = () => {
     if (swiperRef) {
       setActiveIndex(swiperRef.activeIndex);
     }
   };
+  useEffect(() => {
+    const handleResize = () => {
+      const screenWidth = window.innerWidth;
+      if (screenWidth <= 850) {
+        setSlidesPerView(2.2);
+      } else {
+        setSlidesPerView(2.7);
+      }
+    };
+
+    handleResize(); // Call the function initially
+
+    window.addEventListener("resize", handleResize); // Add event listener for resize
+
+    return () => {
+      window.removeEventListener("resize", handleResize); // Clean up on unmount
+    };
+  }, []);
 
   const images = [
     {
@@ -41,28 +60,9 @@ function Testimonials() {
     },
   ];
 
-  // const handlePrevClick = () => {
-  //   if (swiperRef) {
-  //     swiperRef.slidePrev();
-  //   }
-  // };
-
-  // const handleNextClick = () => {
-  //   if (swiperRef) {
-  //     swiperRef.slideNext();
-  //   }
-  // };
-
-  // const handleSlideChange = () => {
-  //   if (swiperRef) {
-  //     setActiveIndex(swiperRef.activeIndex);
-  //   }
-  // };
-
   return (
     <>
       <div className="testimonail_main_div">
-        {/* <div className="main-slider-div"> */}
         <div>
           <h3 className="heading-text-testimonial text-center">Testimonials</h3>
         </div>
@@ -72,7 +72,7 @@ function Testimonials() {
           <Swiper
             onSwiper={setSwiperRef}
             onSlideChange={handleSlideChange}
-            slidesPerView={2.7}
+            slidesPerView={slidesPerView}
             initialSlide={1}
             centeredSlides={true}
             spaceBetween={20}

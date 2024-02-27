@@ -31,7 +31,7 @@ function WorkDone() {
           {details.map((data,index)=>(
           <div className="orange_shape">
             <div className="orange_shape_image_div">
-              <img src={OrangeShape} alt="" srcset="" />
+              <img src={OrangeShape} alt="" srcset="" className="orange_shape_work_done" />
               <div className="work_done_details">
                 {/* image */}
                 <div>

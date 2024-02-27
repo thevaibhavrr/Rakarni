@@ -41,7 +41,7 @@ function ProductService() {
           </div>
         </div>
         {/* 3 */}
-        <div className="third_div_product_service_div">
+        <div className=" third_div_product_service_div product_service_div" style={{background:"#00000000"}} >
           {/* top */}
           <div className="product_service_div">
             {/* heading */}

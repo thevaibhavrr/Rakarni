@@ -12,13 +12,13 @@ function Footer() {
     <div className="first_footer_div_gry" >
       <div className="main_footer_div">
         {/* image */}
-        <div className="first_footer_div">
+        <div className="first_footer_div ">
           <div>
-            <img src={Icon} alt="icon" className="img-fluid" />
+            <img src={Icon} alt="icon" className="img-fluid footer_copany_icon" />
           </div>
           <div className="ms-5" >
             <div className="footer_hading">Follow Us On</div>
-            <img src={socail_media} alt="icon" className="img-fluid" />
+            <img src={socail_media} alt="icon" className="img-fluid footer_copany_icon" />
           </div>
         </div>
         {/* message */}

@@ -1,33 +1,85 @@
-.work_done_main_div{
-    background-image: url("../../Images/infrastructure/infrastructureHomePage.png");
-    height: 100vh;
-    background-size: cover;
-    background-position: center ;   
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+.work_done_main_div {
+  background-image: url("../../Images/infrastructure/infrastructureHomePage.png");
+  /* height: 100vh; */
+  padding: 200px 0px;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
-.orange_shape_image_div{
-    position: relative;
+.orange_shape_image_div {
+  position: relative;
+  width: 100%;
 }
-.work_done_details{
-    position: absolute;
-    top: 50px;
-    left: 0px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;    
+.work_done_details {
+  position: absolute;
+  top: 50px;
+  left: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
 }
-.work_done_person_image{
+.name_work_done {
+  font-size: 34px;
+  font-weight: bold;
 }
-.name_work_done{
-    font-size: 34px;
-    font-weight: bold;
+.work_done_details {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
-.work_done_details{
-    text-align: center;
-    display: flex;
-    flex-direction: column;
+.orange_shape_work_done {
+  width: 100%;
+}
+.work_done_person_image {
+  width: 100%;
+}
+@media (max-width: 1024px) {
+  .work_done_main_div {
+    padding: 150px 0px;
+    background-size: 100% 100%;
+  }
+  .work_done_person_image {
+    width: 100%;
+  }
+  .name_work_done {
+    font-size: 22px;
+  }
+  .work_done_details {
     gap: 20px;
+  }
+  .orange_shape_work_done {
+    width: 90%;
+  }
+  .work_done_person_image {
+    width: 70%;
+  }
+  .work_done_details {
+    width: 90%;
+  }
 }
+@media (max-width: 900px) {
+    .work_done_main_div {
+      padding: 140px 0px;
+    }
+    
+    .name_work_done {
+      font-size: 15px;
+    }
+    .work_done_details {
+      gap: 20px;
+    }
+    .orange_shape_work_done {
+      width: 90%;
+    }
+    .work_done_person_image {
+      width: 60%;
+    }
+    .work_done_details {
+      width: 90%;
+    }
+  }
+  

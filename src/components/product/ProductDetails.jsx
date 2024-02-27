@@ -47,11 +47,11 @@ function ProductDetails() {
           {/* div */}
           <div className="Prodct_details_docs">
             {/* 1 */}
-            <div>
+            <div className="product_details_docs_image_div" >
               <img src={ECO} alt="" srcset="" className="product_doc_image" />
             </div>
             {/* 2 */}
-            <div>
+            <div className="product_details_docs_image_div" >
               <img
                 src={Satisfaction}
                 alt=""
@@ -60,11 +60,11 @@ function ProductDetails() {
               />
             </div>
             {/* 3 */}
-            <div>
+            <div className="product_details_docs_image_div" >
               <img src={ECO} alt="" srcset="" className="product_doc_image" />
             </div>
             {/* 4 */}
-            <div>
+            <div className="product_details_docs_image_div" >
               <img
                 src={Satisfaction}
                 alt=""
