@@ -7,7 +7,6 @@
   display: flex;
   padding: 40px 130px;
   font-family: var(--Playfair-Display-font-family);
-
 }
 .left_side_div_of_Rakranibig_main {
   width: 50%;
@@ -20,7 +19,7 @@
 .right_side_div_of_Rakranibig_main_boottom {
   word-spacing: 10px;
   letter-spacing: 10px;
- }
+}
 .Rakranibig_message_div_parent {
   display: flex;
   justify-content: flex-end;
@@ -39,7 +38,6 @@
   font-weight: bolder;
 }
 
-
 @media (max-width: 1025px) {
   .Rakranibig_mian_div {
     height: 100vh;
@@ -52,7 +50,7 @@
   .right_side_div_of_Rakranibig_main_boottom {
     word-spacing: 8px;
     letter-spacing: 8px;
-   }
+  }
 }
 @media (max-width: 841px) {
   .welcome_to_rakarni_text_for_big {
@@ -66,5 +64,36 @@
   .Rakranibig_message_div_parent {
     padding-left: 100px;
     text-align: justify;
+  }
+}
+
+@media (max-width: 500px) {
+  .Rakranibig_mian_div {
+    height: 60vh;
+    background-size: 100% 100%;
+    padding: 30px 15px;
+  }
+  .left_side_div_of_Rakranibig_main {
+    width: 0%;
+  }
+  .right_side_div_of_Rakranibig_main_boottom {
+    word-spacing: 1px;
+    letter-spacing: 2px;
+  }
+  .Rakranibig_message_div_parent {
+    display: flex;
+    justify-content: center;
+    padding-left: 0px;
+  }
+  .Rakranibig_message_div {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+  }
+  .welcome_to_rakarni_text_for_big {
+    font-size: 30px;
+    letter-spacing: 5px;
+    margin-bottom: 30px;
+    text-align: center;
   }
 }

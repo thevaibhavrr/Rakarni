@@ -10,7 +10,7 @@ function Ourproduct() {
       <div className="our-product-left-sanction">
         {/* image */}
         <div className="cement-image-out-product">
-          <img src={cement} alt="" srcset="" className="img-fluid" />
+          <img src={cement} alt="" srcset="" className="img-fluid home_page_our_product_cement_image" />
         </div>
       </div>
       {/* right */}

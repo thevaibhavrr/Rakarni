@@ -18,21 +18,21 @@ function Testimonials() {
   useEffect(() => {
     const handleResize = () => {
       const screenWidth = window.innerWidth;
-      if (screenWidth <= 850) {
-        setSlidesPerView(2.2);
+      if (screenWidth <= 500) {
+        setSlidesPerView(1.2);
+      } else if (screenWidth <= 900) {
+        setSlidesPerView(1.7);
       } else {
         setSlidesPerView(2.7);
       }
     };
 
-    handleResize(); // Call the function initially
-
-    window.addEventListener("resize", handleResize); // Add event listener for resize
-
+    handleResize();
+    window.addEventListener("resize", handleResize); 
     return () => {
-      window.removeEventListener("resize", handleResize); // Clean up on unmount
+      window.removeEventListener("resize", handleResize);
     };
-  }, []);
+  }, [])
 
   const images = [
     {

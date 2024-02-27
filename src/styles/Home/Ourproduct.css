@@ -13,8 +13,8 @@
   /* padding: 50px; */
 }
 
-.out_product_message{
-   font-size: 20px; 
+.out_product_message {
+  font-size: 20px;
 }
 .our-product-right-sanction {
   display: flex;
@@ -31,31 +31,47 @@
   text-align: center;
   padding: 130px;
 }
-.our-product-text{
+.our-product-text {
   text-align: center;
-  font-size: 30px;  
+  font-size: 30px;
   font-weight: bold;
-  
 }
 @media (max-width: 1025px) {
-.our-product-right-sanction {
-  padding: 10px;
-}
-.our-product-text-sanction {
-  padding: 70px;
-}
-.our-product-left-sanction {
-  width: 50%;
-}
+  .our-product-right-sanction {
+    padding: 10px;
+  }
+  .our-product-text-sanction {
+    padding: 70px;
+  }
+  .our-product-left-sanction {
+    width: 50%;
+  }
 }
 @media (max-width: 840px) {
-  .out_product_message{
-    font-size: 17px; 
- }
+  .out_product_message {
+    font-size: 17px;
+  }
   .our-product-right-sanction {
     padding: 8px;
   }
   .our-product-text-sanction {
     padding: 50px;
   }
+}
+
+
+@media (max-width: 500px) {
+
+.out_product_message {
+  font-size: 14px;
+}
+.our-product-right-sanction {
+  padding: 1px;
+}
+.our-product-text-sanction {
+  padding: 10px;
+}
+.our-product-left-sanction {
+  width: 35%;
+}
 }

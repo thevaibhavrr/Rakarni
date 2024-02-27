@@ -43,9 +43,35 @@
   .small_brush_home_page_image {
     width: 45%;
   }
-.small_brash_image_div {
-  padding: 20px;
-  background-size: cover;
-  background-position: center;
+  .small_brash_image_div {
+    padding: 20px;
+    background-size: cover;
+    background-position: center;
+  }
 }
+
+@media (max-width:500px) {
+  .rakarni_main_div {
+    height: 60vh;
+  }
+  .contant_Area_main_div {
+    position: absolute;
+    bottom: 0;
+    left: 60px;
+    width: 75%;
+  }
+  .small_brush_home_page_image {
+    width: 100%;
+    padding: 0px;
+  }
+  .welcome_to_rakarni_text {
+    font-size: 30px;
+    letter-spacing: 10px;
+  }
+  .small_brash_image_div {
+    padding: 40px;
+  }
+  .small_brush_home_page_image {
+    width: 40%;
+  }
 }

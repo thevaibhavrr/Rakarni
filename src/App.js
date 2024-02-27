@@ -7,12 +7,14 @@ import Footer from "./components/footer";
 import Contact from "./pages/Contact";
 import Infrastructure from "./pages/Infrastructure";
 import Product from "./pages/product";
+import Header from "./components/Header";
 
 
 function App() {
   return (
     <div>
-      <Navbar />
+      {/* <Navbar /> */}
+      <Header/>
       <Routes>
       <Route path="/" element={<Home />} />
       <Route path="/about-us" element={<About />} />

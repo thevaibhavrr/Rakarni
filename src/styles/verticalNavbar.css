@@ -1,0 +1,27 @@
+.navbar_for_small_screen {
+  position: absolute;
+  z-index: 1;
+  left: 0px;
+  /* right: 0px; */
+  padding-right: 80px;
+  top: 10px;
+}
+.navbar_for_small_screen_second {
+
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  background: var(--orange-color-header-footer);
+  min-width: 100px;
+  height: 90vh;
+  z-index: 1;
+}
+.navbar_ul_for_small_screen {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.navbar_items_left_div{
+    width: 100%;
+}
