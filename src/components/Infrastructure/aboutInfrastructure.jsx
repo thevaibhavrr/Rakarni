@@ -12,11 +12,13 @@ function AboutInfrastructure() {
         <div className="Infrastructure_image_section_main_div">
           {/* left  1*/}
           <div className="Infrastructure_image_section_div Infrastructure_image_section_div_fist">
-            <img
-              src={left_image}
-              alt="left"
-              className="Infrastructure_image_left_image"
-            />
+            <div>
+              <img
+                src={left_image}
+                alt="left"
+                className="Infrastructure_image_left_image"
+              />
+            </div>
           </div>
           {/* center 2 */}
           <div className="Infrastructure_image_section_div Infrastructure_image_section_div_text_section">

@@ -52,13 +52,13 @@
 
 @media (max-width:500px) {
   .rakarni_main_div {
-    height: 60vh;
+    height: 50vh;
   }
   .contant_Area_main_div {
     position: absolute;
     bottom: 0;
-    left: 60px;
-    width: 75%;
+    left: 40px;
+    width: 85%;
   }
   .small_brush_home_page_image {
     width: 100%;
@@ -69,9 +69,9 @@
     letter-spacing: 10px;
   }
   .small_brash_image_div {
-    padding: 40px;
+    padding: 20px;
   }
   .small_brush_home_page_image {
-    width: 40%;
+    width: 50%;
   }
 }

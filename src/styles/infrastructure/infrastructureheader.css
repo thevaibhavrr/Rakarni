@@ -30,3 +30,13 @@
         letter-spacing: 7px;
     }
 }
+
+@media (max-width:501px) {
+    .infrastructure_page_headinig_image{
+        height: 90vh;
+    }
+    .InfrastructureHeader_header_text {
+        font-size: 26px;
+        letter-spacing: 5px;
+    }
+}

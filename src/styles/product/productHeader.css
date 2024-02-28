@@ -11,3 +11,9 @@
 .about_us_header_image{
   padding: 70px 5px;
 }
+
+@media (max-width:501px) {
+  .about_us_header_image{
+    padding: 5px 2px;
+  }
+}

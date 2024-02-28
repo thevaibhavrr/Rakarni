@@ -59,19 +59,49 @@
   }
 }
 
-
 @media (max-width: 500px) {
-
-.out_product_message {
-  font-size: 14px;
-}
-.our-product-right-sanction {
-  padding: 1px;
-}
-.our-product-text-sanction {
-  padding: 10px;
+  /* background: rgba(81, 81, 81, 255); */
+.our-product-main-prerent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: var(--Playfair-Display-font-family);
+  align-items: center;
 }
 .our-product-left-sanction {
-  width: 35%;
+  padding: 10px;
+  border-radius: 224px 224px 0px 0px;
+  border-bottom: 2px solid white;
+  background: var(--secondary-gry-color);
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* padding: 50px; */
 }
+
+.out_product_message {
+  font-size: 20px;
+}
+.our-product-right-sanction {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 50px;
+
+  background-color: var(--secondary-gry-color);
+}
+  .out_product_message {
+    font-size: 14px;
+  }
+  .our-product-right-sanction {
+    padding: 1px;
+  }
+  .our-product-text-sanction {
+    padding: 10px;
+  }
+  .our-product-left-sanction {
+    width: 35%;
+  }
 }

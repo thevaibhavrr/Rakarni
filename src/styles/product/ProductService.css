@@ -89,13 +89,13 @@
       flex-wrap: wrap;      
       /* justify-content: space-around; */
       justify-content: space-evenly;
-      padding: 5px 5px;
+      padding: 25px 5px;
       font-family: var(--Playfair-Display-font-family);
     }
     .product_service_div {
       width: 45%;
       padding: 10px;
-      gap: 20px;
+      gap: 10px;
     }
     .third_div_product_service_div {
       display: flex;

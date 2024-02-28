@@ -83,3 +83,42 @@
     }
   }
   
+@media (max-width: 501px) {
+  .work_done_main_div {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+  .orange_shape_image_div {
+    position: relative;
+    width: 100%;
+  }
+  .work_done_details {
+    position: absolute;
+    top: 50px;
+    left: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  .name_work_done {
+    font-size: 30px;
+    font-weight: bold;
+  }
+  .work_done_details {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .orange_shape_work_done {
+    width: 100%;
+  }
+  .work_done_person_image {
+    width: 100%;
+  }
+}

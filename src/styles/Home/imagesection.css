@@ -1,14 +1,15 @@
 .Home_page_image {
   /* position: relative;/ */
+  height: auto;
 }
 .Home_page_image_section {
-  height: 100vh;
-  background-image: url("../../Images/home/header_image.png");
+  /* background-image: url("../../Images/home/header_image.png"); */
   position: relative;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   text-align: center;
+  /* padding: 100px; */
 }
 .images_home {
   position: absolute;
@@ -27,7 +28,7 @@
 @media (max-width: 1025px) {
   .images_home {
     padding: 15px;
-    left: 60px;
+    left: 20px;
     top: 60px;
   }
   .home_page_cement_image {

@@ -5,6 +5,10 @@
   /* right: 0px; */
   padding-right: 80px;
   top: 10px;
+  z-index: 4;
+}
+.toggle_button{
+padding: 0px 10px;
 }
 .navbar_for_small_screen_second {
 
