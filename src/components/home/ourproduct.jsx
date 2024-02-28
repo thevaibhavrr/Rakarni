@@ -7,7 +7,14 @@ function Ourproduct() {
     // 1-prerent
     <div className="our-product-main-prerent">
       {/* left */}
-      <div className="our-product-left-sanction">
+      <div className="our-product-left-sanction"
+       data-aos="flip-down"
+       data-aos-offset="200"
+       data-aos-delay="100"
+       data-aos-duration="1000"
+       data-aos-easing="ease-in-out"
+       data-aos-mirror="true"
+      >
         {/* image */}
         <div className="cement-image-out-product">
           <img src={cement} alt="" srcset="" className="img-fluid home_page_our_product_cement_image" />
@@ -15,7 +22,14 @@ function Ourproduct() {
       </div>
       {/* right */}
       <div className="our-product-right-sanction ">
-        <div className="our-product-text-sanction">
+        <div className="our-product-text-sanction"
+          data-aos="zoom-out"
+          data-aos-offset="200"
+          data-aos-delay="100"
+          data-aos-duration="500"
+          data-aos-easing="ease-in-out"
+          data-aos-mirror="true"
+        >
           <div className="our-product-text">OUR PRODUCT</div>
           <div className="out_product_message">
             Discover our high-quality gypsum powder, finely ground and

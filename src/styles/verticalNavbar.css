@@ -2,12 +2,11 @@
   z-index: 2;
   position: relative;
   background-color: #fd6900d0;
-  
 }
 
 .vertical-navbar {
   position: absolute;
-  top: 50px;
+  top: 74px;
   right: 0;
   height: 100vh;
   width: 200px;

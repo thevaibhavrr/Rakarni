@@ -7,11 +7,25 @@ function Aboutus() {
       <div className="about_us_main_div_home_page">
         <div className="about_us_contant_div_main" >
           {/* left image */}
-          <div className="about_us_Image_section">
+          <div className="about_us_Image_section"
+            data-aos="zoom-out"
+            data-aos-offset="200"
+            data-aos-delay="100"
+            data-aos-duration="500"
+            data-aos-easing="ease-in-out"
+            data-aos-mirror="true"
+          >
             <img src={worker_image} alt="worker_image" srcset="" className="worker_image_about_page" />
           </div>
           {/* right text */}
-          <div className="about_us_text_contant_section" >
+          <div className="about_us_text_contant_section"
+            data-aos="zoom-out"
+            data-aos-offset="200"
+            data-aos-delay="100"
+            data-aos-duration="500"
+            data-aos-easing="ease-in-out"
+            data-aos-mirror="true"
+          >
             <div className="about_us_text_contant_section_heading" >ABOUT US</div>
             <div className="about_us_text_contant_section_message">
               Rakarni established in 2016, is dedicated solely to crafting

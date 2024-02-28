@@ -46,7 +46,14 @@ function SmallNavbar() {
           {/* Vertical Navbar */}
           {showVerticalNavbar && (
             <div className="vertical-navbar">
-              <ul className="navbar_ul_for_small_screen">
+              <ul className="navbar_ul_for_small_screen"
+                data-aos="zoom-out"
+                data-aos-offset="200"
+                data-aos-delay="100"
+                data-aos-duration="500"
+                data-aos-easing="ease-in-out"
+                data-aos-mirror="true"
+              >
                 <Link to={"/"} className="css-for-link-tag">
                   <li>Home</li>
                 </Link>

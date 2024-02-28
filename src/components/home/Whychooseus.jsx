@@ -10,14 +10,28 @@ function Whychooseus() {
       <div className="main_why_choose_us">
         <div className="main_why_choose_us_second">
           {/* left */}
-          <div className="main_why_choose_us_second_left_side">
+          <div className="main_why_choose_us_second_left_side"
+            data-aos="zoom-out"
+            data-aos-offset="200"
+            data-aos-delay="100"
+            data-aos-duration="500"
+            data-aos-easing="ease-in-out"
+            data-aos-mirror="true"
+          >
             <div className="main_why_choose_us_why "> WHY </div>
             <div className="main_why_choose_us_choose"> CHOOSE </div>
             <div className="main_why_choose_us_us">US?</div>
           </div>
 
           {/* right */}
-          <div className="main_why_choose_us_second_right_side">
+          <div className="main_why_choose_us_second_right_side"
+            data-aos="zoom-out"
+            data-aos-offset="200"
+            data-aos-delay="100"
+            data-aos-duration="500"
+            data-aos-easing="ease-in-out"
+            data-aos-mirror="true"
+          >
             <ul className="main_why_choose_us_second_right_side_ul">
               <li>
                 Quality Assurance: Uncompromising commitment to superior product
@@ -41,7 +55,14 @@ function Whychooseus() {
           {/* 1 */}
           <div className="whychoose_us_imges_parent_div" >
             {/* image */}
-            <div>
+            <div
+              data-aos="flip-right"
+              data-aos-offset="200"
+              data-aos-delay="100"
+              data-aos-duration="500"
+              data-aos-easing="ease-in-out"
+              data-aos-mirror="true"
+            >
               <img className="why_choose_bottom_images" src={Qulaity_image} alt="" srcset="" />
             </div>
             {/* text */}
@@ -50,7 +71,14 @@ function Whychooseus() {
           {/* 2 */}
           <div className="whychoose_us_imges_parent_div" >
             {/* image */}
-            <div>
+            <div
+              data-aos="flip-right"
+              data-aos-offset="200"
+              data-aos-delay="100"
+              data-aos-duration="500"
+              data-aos-easing="ease-in-out"
+              data-aos-mirror="true"
+            >
               <img className="why_choose_bottom_images" src={hundred_persent_image} alt="" srcset="" />
             </div>
             {/* text */}
@@ -59,7 +87,14 @@ function Whychooseus() {
           {/* 3 */}
           <div className="whychoose_us_imges_parent_div" >
             {/* image */}
-            <div>
+            <div
+              data-aos="flip-right"
+              data-aos-offset="200"
+              data-aos-delay="100"
+              data-aos-duration="500"
+              data-aos-easing="ease-in-out"
+              data-aos-mirror="true"
+            >
               <img className="why_choose_bottom_images" src={bulb_image} alt="" srcset="" />
             </div>
             {/* text */}
@@ -68,7 +103,14 @@ function Whychooseus() {
           {/* 4 */}
           <div className="whychoose_us_imges_parent_div" >
             {/* image */}
-            <div>
+            <div
+              data-aos="flip-right"
+              data-aos-offset="200"
+              data-aos-delay="100"
+              data-aos-duration="500"
+              data-aos-easing="ease-in-out"
+              data-aos-mirror="true"
+            >
               <img className="why_choose_bottom_images" src={watch_image} alt="" srcset="" />
             </div>
             {/* text */}

@@ -3,14 +3,21 @@ import "../../styles/Home/imagesection.css";
 // import cement from "../../Images/home/cement.png";
 // import Icon from "../../Images/navbar/main_icon.png";
 import firstImage from "../../Images/home/banner 1.png";
-import secondImage from "../../Images/home/header_image.png";
+import secondImage from "../../Images/home/banner 2.png";
 import BannerForMobile from "../../Images/home/banerForMobile.png";
+import BannerForMobile_second from "../../Images/home/banner2forMobile.png";
 function HomePageImagesection() {
   return (
     <>
       <div className="Home_page_image">
         {/* image */}
-        <div className="Home_page_image_section">
+        <div className="Home_page_image_section" 
+        data-aos="zoom-in"
+         data-aos-offset="200"
+         data-aos-delay="1000"
+         data-aos-duration="1000"
+         data-aos-easing="ease-in-out"
+         >
           <div className="bootstrap_slider Home_page_image_section">
             <div id="carouselExample" className="carousel slide carousel-fade">
               <div className="carousel-inner">
@@ -29,7 +36,12 @@ function HomePageImagesection() {
                 <div className="carousel-item">
                   <img
                     src={secondImage}
-                    className="d-block w-100 img-fluid"
+                    className=" w-100 img-fluid bannerforAll"
+                    alt="..."
+                  />
+                  <img
+                    src={BannerForMobile_second}
+                    className="w-100 img-fluid bannerforMobile"
                     alt="..."
                   />
                 </div>
