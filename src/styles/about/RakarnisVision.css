@@ -84,3 +84,60 @@
   }
  
 }
+
+@media (max-width: 501px) {
+  .main_RakarnisVision_div {
+    position: relative;
+    padding: 0px 20px;
+    display: flex;
+    gap: 30px;
+  }
+  
+  .RakarnisVision_div {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    width: 100%;
+    gap: 20px;
+    z-index: 1;
+    margin: 50px 0px;
+  }
+  .RakarnisVision_div_bottom{
+    flex-direction: column;
+  }
+  .RakarnisVision_message {
+    font-size: 14px;
+    letter-spacing: 1px;
+    width: 100%;
+  }
+  .RakarnisVision_image {
+    width: 60%;
+    flex-direction: column;
+    text-align: center;
+  }
+  .RakarnisVision_image_name {
+    font-size: 25px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: var(--Playfair-Display-font-family);
+  }
+  .RakarnisVision_div-image {
+    width: 60%;
+    height: auto;
+  }
+  .RakarnisVision_div-image-worker {
+    width: 100%;
+    height: auto;
+  }
+  .Rakarni_Vision_text {
+    font-size: 25px;
+    font-weight: bold;
+  }
+  .RakarnisVision_image{
+    display: flex;
+    align-items: center;
+  }
+  
+}

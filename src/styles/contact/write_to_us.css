@@ -37,6 +37,7 @@
 .write_to_us_contant_right_side {
   width: 70%;
   padding: 0px 50px;
+  text-align: center;
 }
 .write_to_us_contact_us_button {
   font-size: 60px;
@@ -159,4 +160,100 @@
     padding: 6px 30px;
     font-size: 20px;
   }
+}
+
+@media (max-width: 501px) {
+.main_contact_us_write_to_us {
+  display: flex;
+}
+
+.write_to_us_bg {
+  background: linear-gradient(to top, rgba(0, 0, 0, 1) 70%, transparent 50%),
+    url("../../Images/home/about_us_bg_imag.png");
+  background-size: cover;
+  width: 100%;
+}
+.write_to_us_contant {
+  display: flex;
+  flex-direction: column;
+  padding: 50px;
+  gap: 50px;
+}
+.write_to_us_contant_left_side {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  justify-content: center;
+  flex-direction: column;
+  border-bottom: 25px solid var(--orange-color-header-footer);
+  border-image: linear-gradient(
+      to right,
+      transparent 0%,
+      var(--orange-color-header-footer) 0%
+    )
+    1;
+
+    background: rgba(217, 217, 217, 1);
+  /* background: linear-gradient(
+    to right,
+    transparent 10%,
+    rgba(217, 217, 217, 1) 10%
+  ); */
+}
+.write_to_us_contant_right_side {
+  width: 100%;
+  padding: 0px 20px;
+}
+.write_to_us_contact_us_button {
+  font-size: 40px;
+  width: 100%;
+  position: relative;
+}
+.write_to_us_contact_details {
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+.write_to_us_contact_email_phone div{
+  margin: 5px 0px;
+}
+.write_to_us_contact_image {
+  width: 20px;
+}
+.yellow_color_box {
+  background: rgba(207, 191, 109, 0.7);
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  top: 42%;
+  left: 61%;
+  transform: translate(-50%, -50%);
+}
+
+/* form */
+.write_to_us_parent {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.input_fiiled_write_to_us {
+  width: 100%;
+  padding: 10px;
+  border-radius: 10px;
+  background: var(--home-page-gry-color);
+  border: 1px solid white;
+  font-weight: bold;
+}
+.write_to_us_submit_button {
+  padding: 6px 50px;
+  border-radius: 10px;
+  border: none;
+  color: white;
+  font-size: 25px;
+  background: var(--orange-color-header-footer);
+}
+
 }

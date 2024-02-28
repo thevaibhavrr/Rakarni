@@ -22,6 +22,8 @@
   flex-direction: column;
   gap: 20px;
 }
+@media (max-width: 501px) {
 .navbar_items_left_div{
     width: 100%;
+}
 }

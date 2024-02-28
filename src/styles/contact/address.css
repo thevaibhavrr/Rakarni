@@ -32,3 +32,22 @@
     min-height: 550px;
   }
 }
+
+@media (max-width: 501px) {
+  .location-contact-us {
+    padding: 20px;
+  }
+  .Locate_us_text {
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+    padding: 20px;
+    font-family: var(--Playfair-Display-font-family);
+  }
+  .location-iframe {
+    border-radius: 30px;
+    width: 100%;
+    min-height: 180px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  }
+}

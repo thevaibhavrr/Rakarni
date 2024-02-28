@@ -1,16 +1,19 @@
-.about_page_headinig_image{
-    background-image: url("../../Images/about/about_header.png");
-    height: 100vh;
-    background-size: cover;
-    background-position: center ;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.about_page_headinig_image {
+  background-image: url("../../Images/about/about_header.png");
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.about_us_header_text{
-    font-size: 90px;
-    /* font-weight: 400; */
+.about_us_header_text {
+  font-size: 90px;
   font-family: var(--Playfair-Display-font-family);
-
-    font-weight: bold;
+  font-weight: bold;
+}
+@media (max-width: 501px) {
+  .about_us_header_text {
+    font-size: 70px;
+  }
 }

@@ -28,7 +28,7 @@ function RakarnisVision() {
           </div>
         </div>
         {/* bottom */}
-        <div className="RakarnisVision_div">
+        <div className="RakarnisVision_div RakarnisVision_div_bottom">
           {/* image */}
           <div className="RakarnisVision_image">
             <div className="">
