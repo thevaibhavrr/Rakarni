@@ -5,6 +5,7 @@ import socail_media from "../Images/footer/Frame 8.png";
 import Phone from "../Images/footer/Phone Squared.png";
 import email from "../Images/footer/Email.png";
 import Location from "../Images/footer/Location.png";
+import { Link } from "react-router-dom";
 
 function Footer() {
   return (
@@ -28,11 +29,21 @@ function Footer() {
               {" "}
               <h5 className="footer_hading" > Quick Links</h5>
             </li>
-            <li className="footer_options" >Home</li>
-            <li className="footer_options" >About Us</li>
-            <li className="footer_options" >Contact Us</li>
-            <li className="footer_options" >Products</li>
-            <li className="footer_options" >Infrastructure</li>
+            <li className="footer_options" ><Link to={"/"} className=" css-for-link-tag">
+                <li>Home</li>
+              </Link></li>
+            <li className="footer_options" >  <Link to={"/about-us"} className=" css-for-link-tag">
+                <li>About Us</li>
+              </Link></li>
+            <li className="footer_options" > <Link to={"/contact-us"} className=" css-for-link-tag">
+                <li>Contact Us</li>
+              </Link></li>
+            <li className="footer_options" ><Link to={"/product"} className=" css-for-link-tag">
+                <li>Products</li>
+              </Link></li>
+            <li className="footer_options" ><Link to={"/infrastructure"} className=" css-for-link-tag">
+                <li>Infrastructure</li>
+              </Link></li>
           </ul>
         </div>
         {/* adress */}
