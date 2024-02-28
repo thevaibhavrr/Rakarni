@@ -16,7 +16,6 @@ function HomePageImagesection() {
          data-aos-offset="200"
          data-aos-delay="1000"
          data-aos-duration="1000"
-         data-aos-easing="ease-in-out"
          >
           <div className="bootstrap_slider Home_page_image_section">
             <div id="carouselExample" className="carousel slide carousel-fade">

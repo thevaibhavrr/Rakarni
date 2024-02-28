@@ -12,8 +12,6 @@ function Ourproduct() {
        data-aos-offset="200"
        data-aos-delay="100"
        data-aos-duration="100"
-       data-aos-easing="ease-in-out"
-       data-aos-mirror="true"
       >
         {/* image */}
         <div className="cement-image-out-product">
@@ -27,8 +25,6 @@ function Ourproduct() {
           data-aos-offset="200"
           data-aos-delay="100"
           data-aos-duration="500"
-          data-aos-easing="ease-in-out"
-          data-aos-mirror="true"
         >
           <div className="our-product-text">OUR PRODUCT</div>
           <div className="out_product_message">

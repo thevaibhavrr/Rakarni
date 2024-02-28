@@ -12,7 +12,6 @@ function RAKARNI() {
           data-aos-offset="200"
           data-aos-delay="100"
           data-aos-duration="900"
-          data-aos-easing="ease-in-out"
           >
             {" "}
             <h1 className="welcome_to_rakarni_text"> WELCOME TO <br /> RAKARNI</h1>
@@ -23,7 +22,6 @@ function RAKARNI() {
               data-aos-offset="200"
               data-aos-delay="100"
               data-aos-duration="900"
-              data-aos-easing="ease-in-out"
             />
           </div>
         </div>
