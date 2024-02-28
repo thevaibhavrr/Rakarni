@@ -18,7 +18,7 @@
   left: 100px;
   top: 80px;
   padding: 30px;
-  z-index: 3;
+  /* z-index: 3; */
 }
 .home_page_cement_image {
   width: 90%;
