@@ -8,7 +8,7 @@ function RAKARNI() {
         <div className="contant_Area_main_div" >
           {/* welcome */}
           <div className="text-end"
-          data-aos="fade-up-left"
+          data-aos="zoom-in"
           data-aos-offset="200"
           data-aos-delay="100"
           data-aos-duration="900"
@@ -19,7 +19,7 @@ function RAKARNI() {
           </div>
           <div className="small_brash_image_div"           >
             <img src={smallBrush_cement} alt="small_brush" className="small_brush_home_page_image img-fluid"
-              data-aos="fade-down-right"
+              data-aos="zoom-in"
               data-aos-offset="200"
               data-aos-delay="100"
               data-aos-duration="900"

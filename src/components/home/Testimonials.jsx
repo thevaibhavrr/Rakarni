@@ -64,12 +64,10 @@ function Testimonials() {
     <>
       <div className="testimonail_main_div">
         <div 
-         data-aos="zoom-out"
+         data-aos="zoom-in"
          data-aos-offset="200"
          data-aos-delay="100"
          data-aos-duration="500"
-         data-aos-easing="ease-in-out"
-         data-aos-mirror="true"
         >
           <h3 className="heading-text-testimonial text-center">Testimonials</h3>
         </div>

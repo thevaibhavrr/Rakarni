@@ -8,10 +8,10 @@ function Ourproduct() {
     <div className="our-product-main-prerent">
       {/* left */}
       <div className="our-product-left-sanction"
-       data-aos="flip-down"
+       data-aos="zoom-in"
        data-aos-offset="200"
        data-aos-delay="100"
-       data-aos-duration="1000"
+       data-aos-duration="100"
        data-aos-easing="ease-in-out"
        data-aos-mirror="true"
       >
@@ -23,7 +23,7 @@ function Ourproduct() {
       {/* right */}
       <div className="our-product-right-sanction ">
         <div className="our-product-text-sanction"
-          data-aos="zoom-out"
+          data-aos="zoom-in"
           data-aos-offset="200"
           data-aos-delay="100"
           data-aos-duration="500"

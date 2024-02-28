@@ -5,28 +5,37 @@ function Aboutus() {
   return (
     <>
       <div className="about_us_main_div_home_page">
-        <div className="about_us_contant_div_main" >
+        <div className="about_us_contant_div_main">
           {/* left image */}
-          <div className="about_us_Image_section"
-            data-aos="zoom-out"
-            data-aos-offset="200"
-            data-aos-delay="100"
-            data-aos-duration="500"
-            data-aos-easing="ease-in-out"
-            data-aos-mirror="true"
+          <div
+            className="about_us_Image_section"
+            // data-aos="zoom-in"
+            // data-aos-offset="200"
+            // data-aos-delay="100"
+            // data-aos-duration="500"
+            // data-aos-easing="ease-in-out"
+            // data-aos-mirror="true"
           >
-            <img src={worker_image} alt="worker_image" srcset="" className="worker_image_about_page" />
+            <img
+              src={worker_image}
+              alt="worker_image"
+              srcset=""
+              className="worker_image_about_page"
+            />
           </div>
           {/* right text */}
-          <div className="about_us_text_contant_section"
-            data-aos="zoom-out"
-            data-aos-offset="200"
-            data-aos-delay="100"
-            data-aos-duration="500"
-            data-aos-easing="ease-in-out"
-            data-aos-mirror="true"
+          <div
+            className="about_us_text_contant_section"
+            // data-aos="zoom-in"
+            // data-aos-offset="200"
+            // data-aos-delay="100"
+            // data-aos-duration="500"
+            // data-aos-easing="ease-in-out"
+            // data-aos-mirror="true"
           >
-            <div className="about_us_text_contant_section_heading" >ABOUT US</div>
+            <div className="about_us_text_contant_section_heading">
+              ABOUT US
+            </div>
             <div className="about_us_text_contant_section_message">
               Rakarni established in 2016, is dedicated solely to crafting
               top-quality gypsum products. With advanced facilities and a
@@ -37,7 +46,7 @@ function Aboutus() {
               Trust Maa Durga Gypsum Industries for unmatched quality and
               reliability in gypsum manufacturing.
             </div>
-            <div className="about_us_Know_more_button" >Know more</div>
+            <div className="about_us_Know_more_button">Know more</div>
           </div>
         </div>
       </div>
