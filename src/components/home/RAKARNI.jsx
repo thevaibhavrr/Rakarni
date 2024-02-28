@@ -17,14 +17,14 @@ function RAKARNI() {
             {" "}
             <h1 className="welcome_to_rakarni_text"> WELCOME TO <br /> RAKARNI</h1>
           </div>
-          <div className="small_brash_image_div" 
-          data-aos="fade-down-right"
-          data-aos-offset="200"
-          data-aos-delay="100"
-          data-aos-duration="900"
-          data-aos-easing="ease-in-out"
-          >
-            <img src={smallBrush_cement} alt="small_brush" className="small_brush_home_page_image img-fluid"/>
+          <div className="small_brash_image_div"           >
+            <img src={smallBrush_cement} alt="small_brush" className="small_brush_home_page_image img-fluid"
+              data-aos="fade-down-right"
+              data-aos-offset="200"
+              data-aos-delay="100"
+              data-aos-duration="900"
+              data-aos-easing="ease-in-out"
+            />
           </div>
         </div>
       </div>
