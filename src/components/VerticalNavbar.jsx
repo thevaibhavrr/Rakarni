@@ -104,7 +104,7 @@ function SmallNavbar() {
     <>
       {/* navbar for small screen */}
       <div className="card_for_small_screen navbar_for_small_screen ">
-        <nav className="navbar navbar-expand-lg px-5">
+        <nav className="navbar navbar-expand-lg px-2">
           <div
             className="d-flex justify-content-around w-100"
             data-aos="zoom-out"
