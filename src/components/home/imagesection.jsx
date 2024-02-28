@@ -4,6 +4,7 @@ import "../../styles/Home/imagesection.css";
 // import Icon from "../../Images/navbar/main_icon.png";
 import firstImage from "../../Images/home/banner 1.png";
 import secondImage from "../../Images/home/header_image.png";
+import BannerForMobile from "../../Images/home/banerForMobile.png";
 function HomePageImagesection() {
   return (
     <>
@@ -16,7 +17,12 @@ function HomePageImagesection() {
                 <div className="carousel-item active">
                   <img
                     src={firstImage}
-                    className="d-block w-100 img-fluid"
+                    className="w-100 img-fluid bannerforAll"
+                    alt="..."
+                  />
+                  <img
+                    src={BannerForMobile}
+                    className="w-100 img-fluid bannerforMobile"
                     alt="..."
                   />
                 </div>

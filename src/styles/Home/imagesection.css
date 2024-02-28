@@ -18,6 +18,7 @@
   left: 100px;
   top: 80px;
   padding: 30px;
+  z-index: 3;
 }
 .home_page_cement_image {
   width: 90%;
@@ -25,6 +26,8 @@
 .company_icon {
   width: 100%;
 }
+
+
 @media (max-width: 1025px) {
   .images_home {
     padding: 15px;
@@ -36,5 +39,16 @@
   }
   .company_icon {
     width: 80%;
+  }
+}
+
+@media (max-width:500px) {
+  .bannerforAll{
+    display: none;
+  }
+}
+@media (min-width:500px) {
+  .bannerforMobile{
+    display: none;
   }
 }

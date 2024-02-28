@@ -3,6 +3,7 @@
   background: #2827277e;
   position: relative;
   font-family: var(--Play-font-family);
+  z-index: 3;
 }
 .navbar_logo{
   width: 100%;
