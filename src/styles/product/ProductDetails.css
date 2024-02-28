@@ -1,121 +1,177 @@
-.main_ProductDetails_div{
-    background-image: url("../../Images/product/product_details_bg.png");
-    background-size: 100% 100%;
-    display: flex;
-    flex-direction: column;
-    gap: 100px;
-    font-family: var(--Playfair-Display-font-family);
+.main_ProductDetails_div {
+  background-image: url("../../Images/product/product_details_bg.png");
+  background-size: 100% 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+  font-family: var(--Playfair-Display-font-family);
 }
 /* top */
-.ProductDetails_left_side_main{
-    padding: 50px ;
+.ProductDetails_left_side_main {
+  padding: 50px;
 }
-.product_details_text_main_div_for_bg{
-    backdrop-filter: blur(10px);
-    border-radius: 45px;
-    display: flex;
-    padding: 20px;
-    max-height: 500px;
-    background: var(--light-blur-color);
+.product_details_text_main_div_for_bg {
+  backdrop-filter: blur(10px);
+  border-radius: 45px;
+  display: flex;
+  padding: 20px;
+  max-height: 500px;
+  background: var(--light-blur-color);
 }
-.cement_image_product_details{
-    width: 45%;
+.cement_image_product_details {
+  width: 45%;
 }
-.right_image_section_our_product{
-    padding-top: 60px;
+.right_image_section_our_product {
+  padding-top: 60px;
 }
-.product_details_text_section{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    padding: 50px;
+.product_details_text_section {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding: 50px;
 }
-.Rakarni_ProductDetails_main_text_heading{
-    font-size: 25px;
-    font-weight: 800;
+.Rakarni_ProductDetails_main_text_heading {
+  font-size: 25px;
+  font-weight: 800;
 }
-.Rakarni_ProductDetails_main_text_message{
-    font-size: 20px;
-    font-weight: 550;
-    word-spacing: 2px;
-
+.Rakarni_ProductDetails_main_text_message {
+  font-size: 20px;
+  font-weight: 550;
+  word-spacing: 2px;
 }
-.Know_more_button{
-    
-    background: var(--orange-color-header-footer);
-    padding: 15px 40px;
-    border: none;
-    font-size: 20px;
-    border-radius: 13px;
+.Know_more_button {
+  background: var(--orange-color-header-footer);
+  padding: 15px 40px;
+  border: none;
+  font-size: 20px;
+  border-radius: 13px;
 }
 /* bottom */
-.Prodct_details_docs{
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    gap: 10px;
-    padding: 50px;
+.Prodct_details_docs {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding: 50px;
+}
+.product_doc_image {
+  width: 80%;
+}
+.product_details_docs_image_div {
+  width: 20%;
+}
+@media (max-width: 1180px) {
+  .main_ProductDetails_div {
+    gap: 70px;
+  }
+  /* top */
+  .ProductDetails_left_side_main {
+    padding: 30px;
+  }
+  .product_details_text_main_div_for_bg {
+    padding: 10px;
+    max-height: 370px;
+  }
+  .cement_image_product_details {
+    width: 45%;
+  }
+  .right_image_section_our_product {
+    padding-top: 50px;
+  }
+  .product_details_text_section {
+    padding: 20px;
+  }
+  .Rakarni_ProductDetails_main_text_message {
+    font-size: 18px;
+  }
+  .Know_more_button {
+    padding: 12px 30px;
+  }
+  .product_doc_image {
+    width: 100%;
+  }
+}
+@media (max-width: 800px) {
+  .main_ProductDetails_div {
+    gap: 30px;
+  }
+  .ProductDetails_left_side_main {
+    padding: 20px;
+  }
+  .product_details_text_main_div_for_bg {
+    padding: 8px;
+    max-height: 310px;
+  }
+  .cement_image_product_details {
+    width: 50%;
+  }
+  .product_details_text_section {
+    padding: 16px;
+  }
+  .Rakarni_ProductDetails_main_text_message {
+    font-size: 15px;
+  }
+  .Know_more_button {
+    padding: 10px 25px;
+  }
+}
 
-}
-.product_doc_image{
+@media (max-width: 501px) {
+  .main_ProductDetails_div {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+  /* top */
+  .ProductDetails_left_side_main {
+    padding: 20px;
+  }
+  .product_details_text_main_div_for_bg {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    padding: 5px;
+    max-height: 100%;
+  }
+  .cement_image_product_details {
+    width: 45%;
+  }
+  .right_image_section_our_product {
+    padding-top: 5px;
+  }
+  .product_details_text_section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px 30px;
+    align-items: center;
+  }
+  .Rakarni_ProductDetails_main_text_heading {
+    font-size: 25px;
+    font-weight: 600;
+  }
+  .Rakarni_ProductDetails_main_text_message {
+    font-size: 16px;
+    font-weight: 500;
+    word-spacing: 1px;
+    text-align: center;
+  }
+  .Know_more_button {
+    padding: 12px 25px;
+    font-size: 18px;
+  }
+  /* bottom */
+  .Prodct_details_docs {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 50px;
+    padding: 30px;
+  }
+  .product_doc_image {
     width: 80%;
-}
-.product_details_docs_image_div{
-    width: 20%;
-}
-@media (max-width:1180px) {
-    .main_ProductDetails_div{
-        gap: 70px;
-    }
-    /* top */
-    .ProductDetails_left_side_main{
-        padding: 30px ;
-    }
-    .product_details_text_main_div_for_bg{
-        padding: 10px;
-        max-height: 370px;
-    }
-    .cement_image_product_details{
-        width: 45%;
-    }
-    .right_image_section_our_product{
-        padding-top: 50px;
-    }
-    .product_details_text_section{
-        padding: 20px;
-    }
-    .Rakarni_ProductDetails_main_text_message{
-        font-size: 18px;
-    }
-    .Know_more_button{
-        padding: 12px 30px;
-    }
-    .product_doc_image{
-        width: 100%;
-    }   
-}
-@media (max-width:800px) {
-    .main_ProductDetails_div{
-        gap: 30px;
-    }
-    .ProductDetails_left_side_main{
-        padding: 20px ;
-    }
-    .product_details_text_main_div_for_bg{
-        padding: 8px;
-        max-height: 310px;
-    }
-    .cement_image_product_details{
-        width: 50%;
-    }
-    .product_details_text_section{
-        padding: 16px;
-    }
-    .Rakarni_ProductDetails_main_text_message{
-        font-size: 15px;
-    }
-    .Know_more_button{
-        padding: 10px 25px;
-    }
-   
+  }
+  .product_details_docs_image_div {
+    width: 40%;
+  }
 }
