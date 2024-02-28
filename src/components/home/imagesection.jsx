@@ -11,7 +11,7 @@ function HomePageImagesection() {
         {/* image */}
         <div className="Home_page_image_section">
           <div className="bootstrap_slider Home_page_image_section">
-            <div id="carouselExample" className="carousel slide ">
+            <div id="carouselExample" className="carousel slide carousel-fade">
               <div className="carousel-inner">
                 <div className="carousel-item active">
                   <img
