@@ -54,17 +54,7 @@
       padding: 10px;
     }
   }
-  @media (max-width: 500px) {
-    .video-container {
-      padding: 20px 70px;
-      height: 50vh;
-    }
-    .yout_video_iframe {
-      width: 100%;
-      height: 100%;
-      padding: 10px;
-    }
-  }
+
   @media (max-width: 900px) {
     .video-container {
       padding: 20px 70px;
@@ -79,11 +69,12 @@
   }
   @media (max-width: 501px) {
     .video-container {
-      padding: 20px 20px;
-      height: 80vh;
+      padding: 40px 20px;
+      height: 100vh;
     }
     .main_Ourprocess_div {
-      height: 70vh;
+      height: 80vh;
       padding: 10px;
+      margin-bottom: 20px;
   }
   }
