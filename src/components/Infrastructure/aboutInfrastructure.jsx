@@ -13,7 +13,7 @@ function AboutInfrastructure() {
           {/* left  1*/}
           <div className="Infrastructure_image_section_div Infrastructure_image_section_div_fist">
             <div
-              data-aos="fade-right"
+            data-aos="zoom-in"
               data-aos-offset="100"
               data-aos-delay="600"
               data-aos-duration="1600"
@@ -49,7 +49,8 @@ function AboutInfrastructure() {
           {/* end 3 */}
           <div
             className="Infrastructure_image_section_div Infrastructure_image_section_div_last"
-            data-aos="fade-left"
+            data-aos="zoom-in"
+
             data-aos-offset="100"
             data-aos-delay="600"
             data-aos-duration="1600"
