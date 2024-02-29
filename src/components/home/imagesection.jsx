@@ -53,7 +53,7 @@ function HomePageImagesection() {
                     alt="..."
                   />
                   <img
-                    src={BannerForMobile_second}
+                    src={BannerForMobile_third}
                     className="w-100 img-fluid bannerforMobile"
                     alt="..."
                   />

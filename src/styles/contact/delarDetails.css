@@ -1,5 +1,6 @@
 .dealer-details {
     color: #fff;
+    width: 50%;
   }
 .dealer-details p {
     font-family: var(--Play-font-family);
@@ -28,4 +29,9 @@
     color: var(--orange-color-header-footer);
 
   }
-  
+  @media (max-width:500px) {
+    .dealer-details {
+      color: #fff;
+      width: 90%;
+    }
+  }
