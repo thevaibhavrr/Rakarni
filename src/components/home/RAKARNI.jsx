@@ -10,8 +10,8 @@ function RAKARNI() {
           <div className="text-end"
           data-aos="zoom-in"
           data-aos-offset="200"
-          data-aos-delay="100"
-          data-aos-duration="900"
+          data-aos-delay="400"
+          data-aos-duration="1200"
           >
             {" "}
             <h1 className="welcome_to_rakarni_text"> WELCOME TO <br /> RAKARNI</h1>
@@ -20,8 +20,8 @@ function RAKARNI() {
             <img src={smallBrush_cement} alt="small_brush" className="small_brush_home_page_image img-fluid"
               data-aos="zoom-in"
               data-aos-offset="200"
-              data-aos-delay="100"
-              data-aos-duration="900"
+              data-aos-delay="400"
+              data-aos-duration="1200"
             />
           </div>
         </div>

@@ -10,8 +10,8 @@ function Ourproduct() {
       <div className="our-product-left-sanction"
        data-aos="zoom-in"
        data-aos-offset="200"
-       data-aos-delay="100"
-       data-aos-duration="100"
+       data-aos-delay="400"
+       data-aos-duration="1200"
       >
         {/* image */}
         <div className="cement-image-out-product">
@@ -23,8 +23,8 @@ function Ourproduct() {
         <div className="our-product-text-sanction"
           data-aos="zoom-in"
           data-aos-offset="200"
-          data-aos-delay="100"
-          data-aos-duration="500"
+          data-aos-delay="400"
+          data-aos-duration="1200"
         >
           <div className="our-product-text">OUR PRODUCT</div>
           <div className="out_product_message">

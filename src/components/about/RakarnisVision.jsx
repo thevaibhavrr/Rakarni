@@ -11,7 +11,14 @@ function RakarnisVision() {
         {/* top */}
         <div className="RakarnisVision_div">
           {/* text */}
-          <div className="RakarnisVision_message">
+          <div className="RakarnisVision_message"
+          
+          data-aos="zoom-out"
+          data-aos-offset="100"
+          data-aos-delay="400"
+          data-aos-duration="1200"
+
+          >
             <span className="Rakarni_Vision_text"> Rakarni's Vision: </span>"To
             emerge as the leading brand nationwide and worldwide in
             beautification & construction products, offering sustainable,
@@ -20,7 +27,12 @@ function RakarnisVision() {
             household globally by 2040."
           </div>
           {/* image */}
-          <div className="RakarnisVision_image d-flex">
+          <div className="RakarnisVision_image d-flex"
+           data-aos="zoom-out"
+           data-aos-offset="100"
+           data-aos-delay="400"
+           data-aos-duration="1200"
+          >
             <div>
               <img src={CEO} alt="CEO" className="RakarnisVision_div-image " />
             </div>
@@ -31,7 +43,12 @@ function RakarnisVision() {
         <div className="RakarnisVision_div RakarnisVision_div_bottom">
           {/* image */}
           <div className="RakarnisVision_image">
-            <div className="">
+            <div className=""
+             data-aos="zoom-out"
+             data-aos-offset="100"
+             data-aos-delay="400"
+             data-aos-duration="1200"
+            >
               <img
                 src={Worker}
                 alt="Worker"
@@ -40,7 +57,12 @@ function RakarnisVision() {
             </div>
           </div>
           {/* text */}
-          <div className="RakarnisVision_message">
+          <div className="RakarnisVision_message"
+           data-aos="zoom-out"
+           data-aos-offset="100"
+           data-aos-delay="400"
+           data-aos-duration="1200"
+          >
             <span className="Rakarni_Vision_text"> Rakarni's </span>core values
             embody excellence and sustainability. We elevate spaces with
             innovative aesthetics ("Beautify Beyond Construction"), provide warm

@@ -8,7 +8,12 @@ function TheCompnay() {
       <div className="the_company_main_div">
         {/* main name */}
         <div className="the_company_second_main_heading">
-          <h1 className=" the_company_rakarni_text_div">Rakarni</h1>
+          <h1 className=" the_company_rakarni_text_div"
+           data-aos="zoom-in"
+           data-aos-offset="100"
+           data-aos-delay="400"
+           data-aos-duration="1200"
+          >Rakarni</h1>
         </div>
         {/* second two div  */}
         <div className="the_company_second_div_main">
@@ -20,7 +25,12 @@ function TheCompnay() {
                 <div className="the_company_before_div"></div>
                 <div className="the_company_text px-2">The Company</div>
               </div>
-              <div className="the_company_left_message">
+              <div className="the_company_left_message"
+              data-aos="zoom-in"
+              data-aos-offset="100"
+              data-aos-delay="400"
+              data-aos-duration="1200"
+              >
                 Rakarni established in 2016, is dedicated solely to crafting
                 top-quality gypsum products. With advanced facilities and a
                 skilled team, we specialize in manufacturing products like

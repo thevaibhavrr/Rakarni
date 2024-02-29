@@ -13,8 +13,8 @@ function Whychooseus() {
           <div className="main_why_choose_us_second_left_side"
             data-aos="zoom-out"
             data-aos-offset="200"
-            data-aos-delay="100"
-            data-aos-duration="500"
+            data-aos-delay="400"
+            data-aos-duration="1200"
             data-aos-easing="ease-in-out"
             data-aos-mirror="true"
           >
@@ -27,8 +27,8 @@ function Whychooseus() {
           <div className="main_why_choose_us_second_right_side"
             data-aos="zoom-out"
             data-aos-offset="200"
-            data-aos-delay="100"
-            data-aos-duration="500"
+            data-aos-delay="400"
+          data-aos-duration="1200"
             data-aos-easing="ease-in-out"
             data-aos-mirror="true"
           >
@@ -58,8 +58,8 @@ function Whychooseus() {
             <div
               data-aos="flip-right"
               data-aos-offset="200"
-              data-aos-delay="100"
-              data-aos-duration="500"
+              data-aos-delay="400"
+          data-aos-duration="1200"
               data-aos-easing="ease-in-out"
               data-aos-mirror="true"
             >
@@ -74,8 +74,8 @@ function Whychooseus() {
             <div
               data-aos="flip-right"
               data-aos-offset="200"
-              data-aos-delay="100"
-              data-aos-duration="500"
+              data-aos-delay="400"
+          data-aos-duration="1200"
               data-aos-easing="ease-in-out"
               data-aos-mirror="true"
             >
@@ -90,8 +90,8 @@ function Whychooseus() {
             <div
               data-aos="flip-right"
               data-aos-offset="200"
-              data-aos-delay="100"
-              data-aos-duration="500"
+              data-aos-delay="400"
+          data-aos-duration="1200"
               data-aos-easing="ease-in-out"
               data-aos-mirror="true"
             >
@@ -106,8 +106,8 @@ function Whychooseus() {
             <div
               data-aos="flip-right"
               data-aos-offset="200"
-              data-aos-delay="100"
-              data-aos-duration="500"
+              data-aos-delay="400"
+          data-aos-duration="1200"
               data-aos-easing="ease-in-out"
               data-aos-mirror="true"
             >
