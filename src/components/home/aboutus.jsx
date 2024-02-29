@@ -9,10 +9,10 @@ function Aboutus() {
           {/* left image */}
           <div
             className="about_us_Image_section"
-            data-aos="flip-right"
+            data-aos="fade-up"
             data-aos-offset="100"
             data-aos-delay="400"
-          data-aos-duration="1200"
+            data-aos-duration="1200"
           >
             <img
               src={worker_image}
@@ -24,12 +24,10 @@ function Aboutus() {
           {/* right text */}
           <div
             className="about_us_text_contant_section"
-            data-aos="flip-right"
-            data-aos-offset="200"
+            data-aos="fade-up"
+            data-aos-offset="100"
             data-aos-delay="400"
-          data-aos-duration="1200"
-            data-aos-easing="ease-in-out"
-            data-aos-mirror="true"
+            data-aos-duration="1200"
           >
             <div className="about_us_text_contant_section_heading">
               ABOUT US

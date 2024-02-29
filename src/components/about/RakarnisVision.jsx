@@ -13,7 +13,7 @@ function RakarnisVision() {
           {/* text */}
           <div className="RakarnisVision_message"
           
-          data-aos="zoom-out"
+          data-aos="zoom-in"
           data-aos-offset="100"
           data-aos-delay="400"
           data-aos-duration="1200"
@@ -28,7 +28,7 @@ function RakarnisVision() {
           </div>
           {/* image */}
           <div className="RakarnisVision_image d-flex"
-           data-aos="zoom-out"
+           data-aos="zoom-in"
            data-aos-offset="100"
            data-aos-delay="400"
            data-aos-duration="1200"
@@ -44,7 +44,7 @@ function RakarnisVision() {
           {/* image */}
           <div className="RakarnisVision_image">
             <div className=""
-             data-aos="zoom-out"
+             data-aos="zoom-in"
              data-aos-offset="100"
              data-aos-delay="400"
              data-aos-duration="1200"
@@ -58,7 +58,7 @@ function RakarnisVision() {
           </div>
           {/* text */}
           <div className="RakarnisVision_message"
-           data-aos="zoom-out"
+           data-aos="zoom-in"
            data-aos-offset="100"
            data-aos-delay="400"
            data-aos-duration="1200"
