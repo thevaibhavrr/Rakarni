@@ -1,6 +1,7 @@
 .dealer-details {
     color: #fff;
-    width: 50%;
+    width: 35%;
+    text-align: center;
   }
 .dealer-details p {
     font-family: var(--Play-font-family);
