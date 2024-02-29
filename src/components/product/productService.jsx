@@ -9,7 +9,10 @@ function ProductService() {
           {/* heading */}
           <div className="product_service_heading" >Surface Preparation</div>
           {/* message */}
-          <div  className="product_service_message" >
+          <div  className="product_service_message" data-aos="zoom-in"
+         data-aos-offset="100"
+         data-aos-delay="400"
+         data-aos-duration="1200">
             <ul>
               <li>Clean surface from dust, oil, and impurities.</li>
               <li>Prepare wall with hacking or use Sakarni plaster bond.</li>
@@ -25,7 +28,10 @@ function ProductService() {
           {/* heading */}
           <div className="product_service_heading" >Application Procedure</div>
           {/* message */}
-          <div  className="product_service_message" >
+          <div  className="product_service_message" data-aos="zoom-in"
+         data-aos-offset="100"
+         data-aos-delay="400"
+         data-aos-duration="1200" >
             <ul>
               <li>
                 Mix gypsum plaster with water until homogeneous (70% water
@@ -47,7 +53,10 @@ function ProductService() {
             {/* heading */}
             <div className="product_service_heading" >Packaging</div>
             {/* message */}
-            <div  className="product_service_message" >
+            <div  className="product_service_message" data-aos="zoom-in"
+         data-aos-offset="100"
+         data-aos-delay="400"
+         data-aos-duration="1200">
               <ul>
                 <li>
                   Moisture-proof, fully sealed, and tamper-proof packaging
@@ -61,7 +70,10 @@ function ProductService() {
             {/* heading */}
             <div className="product_service_heading" >Storage</div>
             {/* message */}
-            <div  className="product_service_message" >
+            <div  className="product_service_message" data-aos="zoom-in"
+         data-aos-offset="100"
+         data-aos-delay="400"
+         data-aos-duration="1200">
               <ul>
                 <li>The shelf life of the sealed pack is 6 months.</li>
                 <li>Use the material before 7 days once the bag is open.</li>
@@ -75,7 +87,10 @@ function ProductService() {
           {/* heading */}
           <div className="product_service_heading" >Technical Specifications</div>
           {/* message */}
-          <div  className="product_service_message" >
+          <div  className="product_service_message" data-aos="zoom-in"
+         data-aos-offset="100"
+         data-aos-delay="400"
+         data-aos-duration="1200">
             <ul>
               <li>Color: Off White</li>
               <li>Water/Plaster Ratio: 70-75%</li>

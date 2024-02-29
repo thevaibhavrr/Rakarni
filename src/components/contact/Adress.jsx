@@ -4,7 +4,12 @@ function Adress() {
   return (
     <div>
       <div className="location-contact-us">
-        <div className="Locate_us_text" >
+        <div className="Locate_us_text"
+         data-aos="zoom-in"
+         data-aos-offset="100"
+         data-aos-delay="400"
+         data-aos-duration="1200"
+        >
             Locate Us
         </div>
         <div>

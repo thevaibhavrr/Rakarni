@@ -15,11 +15,23 @@ function ProductDetails() {
             {/* text */}
             <div className="w-100 product_details_text_section">
               {/* hading */}
-              <div className="Rakarni_ProductDetails_main_text_heading">
+              <div
+                className="Rakarni_ProductDetails_main_text_heading"
+                data-aos="zoom-in"
+                data-aos-offset="100"
+                data-aos-delay="400"
+                data-aos-duration="1200"
+              >
                 Rakarni Gypsum
               </div>
               {/* message */}
-              <div className="Rakarni_ProductDetails_main_text_message">
+              <div
+                className="Rakarni_ProductDetails_main_text_message"
+                data-aos="zoom-in"
+                data-aos-offset="100"
+                data-aos-delay="400"
+                data-aos-duration="1200"
+              >
                 "Stand before a modern gypsum facility, its minimalist design
                 rising confidently. Without glass, its strength is evident.
                 Write a piece inspired by this contemporary perspective,
@@ -27,13 +39,19 @@ function ProductDetails() {
               </div>
               {/* <div className="my-5 bg-black" ></div> */}
               {/* button */}
-              <div className="mt-5" >
+              <div className="mt-5">
                 <button className="Know_more_button">Know more</button>
                 {/* Know More */}
               </div>
             </div>
             {/* image */}
-            <div className="w-75 text-center right_image_section_our_product">
+            <div
+              className="w-75 text-center right_image_section_our_product"
+              data-aos="flip-left"
+              data-aos-offset="100"
+              data-aos-delay="400"
+              data-aos-duration="1200"
+            >
               <img
                 src={cement}
                 alt="cement"
@@ -47,11 +65,23 @@ function ProductDetails() {
           {/* div */}
           <div className="Prodct_details_docs">
             {/* 1 */}
-            <div className="product_details_docs_image_div" >
+            <div
+              className="product_details_docs_image_div"
+              data-aos="flip-left"
+              data-aos-offset="100"
+              data-aos-delay="400"
+              data-aos-duration="1200"
+            >
               <img src={ECO} alt="" srcset="" className="product_doc_image" />
             </div>
             {/* 2 */}
-            <div className="product_details_docs_image_div" >
+            <div
+              className="product_details_docs_image_div"
+              data-aos="flip-left"
+              data-aos-offset="100"
+              data-aos-delay="400"
+              data-aos-duration="1200"
+            >
               <img
                 src={Satisfaction}
                 alt=""
@@ -60,11 +90,23 @@ function ProductDetails() {
               />
             </div>
             {/* 3 */}
-            <div className="product_details_docs_image_div" >
+            <div
+              className="product_details_docs_image_div"
+              data-aos="flip-left"
+              data-aos-offset="100"
+              data-aos-delay="400"
+              data-aos-duration="1200"
+            >
               <img src={ECO} alt="" srcset="" className="product_doc_image" />
             </div>
             {/* 4 */}
-            <div className="product_details_docs_image_div" >
+            <div
+              className="product_details_docs_image_div"
+              data-aos="flip-left"
+              data-aos-offset="100"
+              data-aos-delay="400"
+              data-aos-duration="1200"
+            >
               <img
                 src={Satisfaction}
                 alt=""

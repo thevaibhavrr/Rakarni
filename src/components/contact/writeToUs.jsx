@@ -12,7 +12,12 @@ function WriteToUs() {
             {/* left */}
             <div className="write_to_us_contant_left_side">
               {/* contact us text */}
-              <div className="write_to_us_contact_us_button">Contact Us.
+              <div className="write_to_us_contact_us_button"
+               data-aos="zoom-in"
+               data-aos-offset="100"
+               data-aos-delay="400"
+               data-aos-duration="1200"
+              >Contact Us.
               <div className="yellow_color_box"></div>
                </div>
               
@@ -37,7 +42,12 @@ function WriteToUs() {
                 </div>
 
                 {/* number */}
-                <div className="write_to_us_contact_email_phone">
+                <div className="write_to_us_contact_email_phone"
+                 data-aos="zoom-in"
+                 data-aos-offset="100"
+                 data-aos-delay="400"
+                 data-aos-duration="1200"
+                >
                   <div className="">vaibhavrathorema@gmail.com</div>
                   <div className="">+919926503468</div>
                 </div>
@@ -48,7 +58,12 @@ function WriteToUs() {
             {/* right */}
             <div className="write_to_us_contant_right_side">
               {/* details */}
-              <div>
+              <div
+               data-aos="zoom-in"
+               data-aos-offset="100"
+               data-aos-delay="400"
+               data-aos-duration="1200"
+               >
                 <div className="write_to_us_contact_us_button text-white">
                   Write to us.
                 </div>
@@ -87,7 +102,12 @@ function WriteToUs() {
                     />
                   </div>
                   {/* button */}
-                  <div>
+                  <div 
+                   data-aos="zoom-in"
+                   data-aos-offset="100"
+                   data-aos-delay="400"
+                   data-aos-duration="1200"
+                  >
                     {" "}
                     <button className="write_to_us_submit_button">
                       Submit

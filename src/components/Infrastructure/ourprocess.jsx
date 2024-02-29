@@ -4,7 +4,12 @@ function Ourprocess() {
   return (
     <>
       <div className="main_Ourprocess_div">
-        <div className="main_our_process_text">Our Process</div>
+        <div className="main_our_process_text"
+        data-aos="fade-down"
+        data-aos-offset="100"
+        data-aos-delay="400"
+        data-aos-duration="1200"
+        >Our Process</div>
         <div className="video-container">
           <iframe
             width="100%"

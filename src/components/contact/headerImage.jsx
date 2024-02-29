@@ -7,10 +7,20 @@ function HeaderImage() {
   return (
     <>
       <div className="contact_us_header_image">
-        <div className="_header_text_for_bg p-5 text-white">Contact Us</div>
+        <div className="_header_text_for_bg p-5 text-white"
+         data-aos="zoom-in"
+         data-aos-offset="100"
+         data-aos-delay="400"
+         data-aos-duration="1200"
+        >Contact Us</div>
         <div className="images_home text-center" >
           {/* top */}
-          <div>
+          <div
+           data-aos="zoom-in"
+           data-aos-offset="100"
+           data-aos-delay="400"
+           data-aos-duration="1200"
+          >
             <img src={Icon} alt="icon" className="company_icon" />
           </div>
           {/* cement */}

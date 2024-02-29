@@ -6,7 +6,10 @@ function ProductHeader() {
   return (
     <>
       <div className="Product_Header_main">
-        <div className="_header_text_for_bg p-5 ">Products</div>
+        <div className="_header_text_for_bg p-5 "data-aos="zoom-in"
+         data-aos-offset="100"
+         data-aos-delay="400"
+         data-aos-duration="1200">Products</div>
         <div className="images_home about_us_header_image text-center">
           {/* top */}
           <div>

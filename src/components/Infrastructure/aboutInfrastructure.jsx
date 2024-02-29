@@ -12,7 +12,12 @@ function AboutInfrastructure() {
         <div className="Infrastructure_image_section_main_div">
           {/* left  1*/}
           <div className="Infrastructure_image_section_div Infrastructure_image_section_div_fist">
-            <div>
+            <div
+              data-aos="fade-right"
+              data-aos-offset="100"
+              data-aos-delay="600"
+              data-aos-duration="1600"
+            >
               <img
                 src={left_image}
                 alt="left"
@@ -21,7 +26,13 @@ function AboutInfrastructure() {
             </div>
           </div>
           {/* center 2 */}
-          <div className="Infrastructure_image_section_div Infrastructure_image_section_div_text_section">
+          <div
+            className="Infrastructure_image_section_div Infrastructure_image_section_div_text_section"
+            data-aos="zoom-in"
+            data-aos-offset="100"
+            data-aos-delay="400"
+            data-aos-duration="1200"
+          >
             Welcome to our Infrastructure page, where we highlight the heart of
             our gypsum industry operations. Our cutting-edge facilities are
             designed for efficiency, precision, and sustainability. Equipped
@@ -36,7 +47,13 @@ function AboutInfrastructure() {
             innovation and reliability.
           </div>
           {/* end 3 */}
-          <div className="Infrastructure_image_section_div Infrastructure_image_section_div_last">
+          <div
+            className="Infrastructure_image_section_div Infrastructure_image_section_div_last"
+            data-aos="fade-left"
+            data-aos-offset="100"
+            data-aos-delay="600"
+            data-aos-duration="1600"
+          >
             <img
               src={right_image}
               alt="left"
