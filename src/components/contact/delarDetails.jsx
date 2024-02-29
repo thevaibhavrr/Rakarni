@@ -3,14 +3,14 @@ import "../../styles/contact/delarDetails.css"
 const DealerDetails = () => {
   const dealers = [
     {
-      name: "Mozaffnagar dealer",
-      firmName: "Mayur interior",
+      name: "Mayur interior",
+      firmName: " Mohd Mohasin",
       address: "Near Balaji dham, Mozaffnagar",
       phoneNumber: "9058545024"
     },
     {
-      name: "Haridwar pop dealer",
-      firmName: "Lakhan Singh",
+      name: "Lakhan Singh",
+      firmName: " Haridwar  dealer",
       address: " Rajasthan pop",
       phoneNumber: "9837263625",
     },

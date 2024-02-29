@@ -24,9 +24,9 @@ function Adress() {
           ></iframe>
         </div>
         {/* address */}
-        <div className="address_work" >
-          Works address- MAA DURGA GYPSUM INDUSTRIES CHAK PRM 6 DANTOR
-          BIKANER RAJSTHAN INDIA
+        <div className="address_work">
+          Works address- MAA DURGA GYPSUM INDUSTRIES CHAK PRM 6 DANTOR BIKANER
+          RAJSTHAN INDIA
         </div>
       </div>
     </div>

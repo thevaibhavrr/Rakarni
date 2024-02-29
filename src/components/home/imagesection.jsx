@@ -4,8 +4,10 @@ import "../../styles/Home/imagesection.css";
 // import Icon from "../../Images/navbar/main_icon.png";
 import firstImage from "../../Images/home/banner 1.png";
 import secondImage from "../../Images/home/banner 2.png";
+import thirdImage from "../../Images/home/banner 3.png";
 import BannerForMobile from "../../Images/home/banerForMobile.png";
 import BannerForMobile_second from "../../Images/home/banner2forMobile.png";
+import BannerForMobile_third from "../../Images/home/reels3forHomePage.png";
 function HomePageImagesection() {
   return (
     <>
@@ -35,6 +37,18 @@ function HomePageImagesection() {
                 <div className="carousel-item">
                   <img
                     src={secondImage}
+                    className=" w-100 img-fluid bannerforAll"
+                    alt="..."
+                  />
+                  <img
+                    src={BannerForMobile_second}
+                    className="w-100 img-fluid bannerforMobile"
+                    alt="..."
+                  />
+                </div>
+                <div className="carousel-item">
+                  <img
+                    src={thirdImage}
                     className=" w-100 img-fluid bannerforAll"
                     alt="..."
                   />
