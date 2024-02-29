@@ -3,7 +3,23 @@
   /* height: 100vh; */
   background-size: 100% 100%;
   background-position: center;
+  position: relative;
 }
+/* aboutInfrastructure.css */
+
+/* Scrollbar box styles */
+.scrollbar_box {
+  position: fixed;
+  top: 0;
+  right: 40px;
+  height: 100px;
+  width: 50px;
+  border-right: 50px solid orange;
+  cursor:pointer;
+  z-index: 999;
+
+}
+
 
 .INFRASTRUCTURE_heading_main_text {
   font-size: 60px;
