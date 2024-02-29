@@ -1,6 +1,7 @@
 import React from "react";
 import "../../styles/Home/Aboutus.css";
 import worker_image from "../../Images/home/about_us_image.png";
+import { Link } from "react-router-dom";
 function Aboutus() {
   return (
     <>
@@ -42,11 +43,15 @@ function Aboutus() {
               Trust Maa Durga Gypsum Industries for unmatched quality and
               reliability in gypsum manufacturing.
             </div>
-            <div className="about_us_Know_more_button">Know more</div>
+            <div className="about_us_Know_more_button">
+            <Link to={"/about-us"} className=" css-for-link-tag">
+              Know more
+              </Link>
+              </div>
           </div>
         </div>
       </div>
-    </>
+    </> 
   );
 }
 
