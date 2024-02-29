@@ -18,7 +18,7 @@ const DealerDetails = () => {
       name: "Shree Balaji trading co.",
       firmName: "Behat road Saharanpur",
       address: "Arpit Bansal",
-      phoneNumber: "9808924046"
+      phoneNumber: "9808924046" 
     }
   ];
 
