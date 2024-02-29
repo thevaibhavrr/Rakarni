@@ -8,7 +8,10 @@ function Navbar() {
       <div className="main_navbar_div">
         <div className="second_navbar_main_div">
           <div className="navbar_items_left_div">
+          <Link to={"/"} className="css-for-link-tag">
+
             <img src={Icon} alt="navbar_logo" className="navbar_logo" />
+            </Link>
           </div>
           <div className="navbar_items_right_div">
             <ul className="navbar_ul">
@@ -18,14 +21,15 @@ function Navbar() {
               <Link to={"/about-us"} className=" css-for-link-tag">
                 <li>About Us</li>
               </Link>
-              <Link to={"/contact-us"} className=" css-for-link-tag">
-                <li>Contact Us</li>
-              </Link>
+            
               <Link to={"/product"} className=" css-for-link-tag">
                 <li>Products</li>
               </Link>
               <Link to={"/infrastructure"} className=" css-for-link-tag">
                 <li>Infrastructure</li>
+              </Link>
+              <Link to={"/contact-us"} className=" css-for-link-tag">
+                <li>Contact Us</li>
               </Link>
             </ul>
           </div>

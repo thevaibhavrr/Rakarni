@@ -34,3 +34,23 @@ code {
   --Play-font-family:"Play", sans-serif;
   
 }
+
+
+/* Add styles for the required scrollbar: */
+.locomotive-scroll__scrollbar {
+  position: fixed;
+  right: 0;
+  top: 0;
+  width: 50px;
+  height: 100vh; /* Make scrollbar full viewport height */
+  background: none; /* Remove default background */
+  box-shadow: inset 0 0 0 50px rgba(255, 0, 0, 0.2); /* Set red color with transparency */
+  z-index: 999; /* Ensure scrollbar is above content */
+}
+
+.locomotive-scroll__scrollbar:hover {
+  background: none; /* Maintain red color on hover */
+  box-shadow: inset 0 0 0 50px rgba(255, 0, 0, 0.5); /* Increase red opacity on hover (optional) */
+}
+
+/* Other existing CSS styles from your aboutInfrastructure.css file */

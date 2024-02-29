@@ -2,6 +2,7 @@ import React from 'react'
 import HeaderImage from '../components/contact/headerImage'
 import WriteToUs from '../components/contact/writeToUs'
 import Adress from '../components/contact/Adress'
+import DealerDetails from '../components/contact/delarDetails'
 
 function Contact() {
   return (
@@ -9,6 +10,7 @@ function Contact() {
         <HeaderImage/>
         <WriteToUs/>
         <Adress/>
+        <DealerDetails/>
     </div>
   )
 }
