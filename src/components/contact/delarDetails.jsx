@@ -23,6 +23,41 @@ const DealerDetails = () => {
       address: "Behat road Saharanpur",
       phoneNumber: "+91 9808924046",
     },
+    {
+      shop_name: "Firozabad Dealer",
+      name: "Amit Yadav",
+      firmName: " Shri Giriraj Traders ",
+      address: "Statioin road, Firozabad",
+      phoneNumber: "+91 94123 16831",
+    },
+    {
+      shop_name: "Lucknow Dealerr",
+      name: "Amit Yadav",
+      firmName: " Aaditya Enterprises ",
+      address: "13/7065, C - Block , Rajajipuram, Lucknow -17",
+      phoneNumber: "+91 92059 72779, +91 86040 46674",
+    },
+    {
+      shop_name: "Etawah Dealer",
+      name: "Rajkumar Chuhan",
+      firmName: " DEEKSHA POP ",
+      address: "Pakka bagh, main kanpur road, Etawah, Uttar pardesh",
+      phoneNumber: "+91 88592 74297",
+    },
+    {
+      shop_name: "Auraiya Dealer",
+      name: "Sharad porwal",
+      firmName: " GURUDYAL PARSAD SANTOSH KUMAR AND SONS ",
+      address: "Tilak nagar, tilak marcket, Auriya, Uttar pardesh",
+      phoneNumber: "+91 95286 18183",
+    },
+    {
+      shop_name: "Kanpur Dealer",
+      name: "Sandeep rajpal",
+      firmName: " DAlPHIN IND. ",
+      address: "PLOT NO 4 vyapar nagar ispat nagar kanpur, Uttar pardesh",
+      phoneNumber: "+91 98393 24547 ",
+    },
   ];
 
   return (
