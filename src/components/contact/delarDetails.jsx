@@ -20,7 +20,7 @@ const DealerDetails = () => {
       shop_name: "Saharanpur Dealer",
       name: "Arpit Bansal",
       firmName: " Shree Balaji trading co. ",
-      address: "Behat road Saharanpur",
+      address: "Rasul pur, behat road, saharanpur",
       phoneNumber: "+91 9808924046",
     },
     {
