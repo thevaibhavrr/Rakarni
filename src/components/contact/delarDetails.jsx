@@ -31,8 +31,8 @@ const DealerDetails = () => {
       phoneNumber: "+91 94123 16831",
     },
     {
-      shop_name: "Lucknow Dealerr",
-      name: "Amit Yadav",
+      shop_name: "Lucknow Dealer",
+      name: "Aditya Saxena",
       firmName: " Aaditya Enterprises ",
       address: "13/7065, C - Block , Rajajipuram, Lucknow -17",
       phoneNumber: "+91 92059 72779, +91 86040 46674",
@@ -62,7 +62,7 @@ const DealerDetails = () => {
 
   return (
     <div>
-      <div className="dealer_details_text">Dealer Details</div>
+      <div className="dealer_details_text">Our Dealer</div>
       <div className="main_dealer_details_div"
        data-aos="zoom-in"
        data-aos-offset="100"
