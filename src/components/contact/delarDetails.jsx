@@ -26,29 +26,30 @@ const DealerDetails = () => {
   ];
 
   return (
-<div className="d-flex justify-content-center" >
-    <div className="dealer-details">
+    <div>
       <div className="dealer_details_text">Dealer Details</div>
+      <div className="main_dealer_details_div">
+        {dealers.map((dealer, index) => (
+          <div className="dealer-details">
+            <div className="dealer" key={index}>
+              <h3 className="dealer_name">{dealer.shop_name}</h3>
+              <p>
+                <strong>Dealer Name:</strong> {dealer.name}
+              </p>
 
-      {dealers.map((dealer, index) => (
-        <div className="dealer" key={index}>
-          <h3 className="dealer_name">{dealer.shop_name}</h3>
-          <p>
-            <strong>Dealer Name:</strong> {dealer.name}
-          </p>
-
-          <p>
-            <strong>Firm Name:</strong> {dealer.firmName}
-          </p>
-          <p>
-            <strong>Address:</strong> {dealer.address}
-          </p>
-          <p>
-            <strong>Phone Number:</strong> {dealer.phoneNumber}
-          </p>
-        </div>
-      ))}
-    </div>
+              <p>
+                <strong>Firm Name:</strong> {dealer.firmName}
+              </p>
+              <p>
+                <strong>Address:</strong> {dealer.address}
+              </p>
+              <p>
+                <strong>Phone Number:</strong> {dealer.phoneNumber}
+              </p>
+            </div>
+          </div>
+        ))}
+      </div>
     </div>
   );
 };

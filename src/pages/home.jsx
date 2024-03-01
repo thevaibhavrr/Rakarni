@@ -6,8 +6,6 @@ import Ourproduct from "../components/home/ourproduct";
 import Aboutus from "../components/home/aboutus";
 import Whychooseus from "../components/home/Whychooseus";
 import Testimonials from "../components/home/Testimonials";
-// import Footer from '../components/footer'
-// import CustomScroll from "react-custom-scroll";
 
 function Home() {
   return (
@@ -19,7 +17,6 @@ function Home() {
           <Aboutus />
           <Whychooseus />
           <Testimonials />
-          {/* <Footer/> */}
     </div>
   );
 }
