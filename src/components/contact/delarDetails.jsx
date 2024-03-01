@@ -3,7 +3,7 @@ import "../../styles/contact/delarDetails.css";
 const DealerDetails = () => {
   const dealers = [
     {
-      shop_name: "Mozaffnagar Dealer",
+      shop_name: "Muzaffarnagar Dealer",
       name: "Mohd Mohasin ",
       firmName: " Mayur interior",
       address: "Near Balaji dham, Mozaffnagar",
