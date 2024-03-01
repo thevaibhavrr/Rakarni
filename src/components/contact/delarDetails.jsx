@@ -28,9 +28,19 @@ const DealerDetails = () => {
   return (
     <div>
       <div className="dealer_details_text">Dealer Details</div>
-      <div className="main_dealer_details_div">
+      <div className="main_dealer_details_div"
+       data-aos="zoom-in"
+       data-aos-offset="100"
+       data-aos-delay="400"
+       data-aos-duration="1200"
+      >
         {dealers.map((dealer, index) => (
-          <div className="dealer-details">
+          <div className="dealer-details"
+          data-aos="zoom-in"
+          data-aos-offset="100"
+          data-aos-delay="400"
+          data-aos-duration="1200"
+          >
             <div className="dealer" key={index}>
               <h3 className="dealer_name">{dealer.shop_name}</h3>
               <p>
