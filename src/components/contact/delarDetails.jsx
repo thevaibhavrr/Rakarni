@@ -4,8 +4,8 @@ const DealerDetails = () => {
   const dealers = [
     {
       shop_name: "Mozaffnagar Dealer",
-      name: "Mayur interior",
-      firmName: " Mohd Mohasin",
+      name: "Mohd Mohasin ",
+      firmName: " Mayur interior",
       address: "Near Balaji dham, Mozaffnagar",
       phoneNumber: "+91 9058545024",
     },
